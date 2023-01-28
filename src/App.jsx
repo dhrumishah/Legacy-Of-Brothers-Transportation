@@ -1,6 +1,6 @@
 import Nav from "./components/Nav";
 import Home from "./components/Home";
-import Culture from "./components/Culture";
+// import Culture from "./components/Culture";
 import Contact from "./components/Contact";
 import Button from "./components/Button";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -19,7 +19,7 @@ function App() {
             <Route
               exact
               path="/culture"
-              element={<Culture className="relative top-0 left-0" />}
+              // element={<Culture className="relative top-0 left-0" />}
             />
             <Route exact path="/contact" element={<Contact />} />
             {/* <Route exact path="/shop" element={<Shop/>}/> */}
