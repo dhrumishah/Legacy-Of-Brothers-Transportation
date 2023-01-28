@@ -12,7 +12,7 @@ const AboutUs = () => {
       <div className="">
         <img
           src={image_1}
-          className="absolute bg-no-repeat max-h-screen bg-cover bg-center z-[-1] top-0"
+          className="absolute bg-no-repeat max-h-screen bg-cover bg-center w-full z-[-1] top-0"
         />
       </div>
       <div className="mt-[77.5vh] bg-[#F8F8F8]">
