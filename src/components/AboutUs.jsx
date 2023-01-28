@@ -15,7 +15,7 @@ const AboutUs = () => {
           className="absolute bg-no-repeat max-h-screen bg-cover bg-center w-full z-[-1] top-0"
         />
       </div>
-      <div className="mt-[77.5vh] bg-[#F8F8F8]">
+      <div className="mt-[86.5vh] bg-[#F8F8F8]">
         <div className="p-8 bg-[#686868] text-4xl font-bold text-[#F8DA78] ">
           Our Services
         </div>
