@@ -120,7 +120,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <img src={image_3} className="mt-[2rem]" />
+        <img src={image_3} className="mt-[2rem] w-full" />
       </div>
     </>
   );
