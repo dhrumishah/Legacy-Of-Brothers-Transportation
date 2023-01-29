@@ -36,7 +36,7 @@ const Home = () => {
         <div className="relative">
           <img src={image_2} className=" top-0 h-screen" />
         </div>
-        <div className="absolute text-center bg-[#e1e1e166] p-[5rem] text-black right-0 top-[45rem] mr-28 rounded-lg ">
+        <div className="absolute text-center bg-[#e1e1e166] p-[5rem] text-black right-0 lg:top-[47rem] mr-28 rounded-lg xl:top-[47rem]">
           <h1 className="italic font-extrabold text-4xl sm:text-3xl">
             Culture is the foundation <br /> of our success
           </h1>
