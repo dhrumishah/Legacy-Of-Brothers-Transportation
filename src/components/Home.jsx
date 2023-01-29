@@ -140,7 +140,7 @@ const Home = () => {
           <h1 className="mt-6 text-black text-4xl justify-center text-center items-center font-extrabold italic">
             Services
           </h1>
-          <div className="flex flex-row flex-wrap mt-12 justify-evenly gap-10">
+          <div className="flex flex-row flex-wrap mt-9 justify-evenly gap-10">
             <a href="/aboutus" className="cursor-pointer">
               <div className="box w-2/3 m-auto p-4 items-center text-center shadow-xl">
                 <h1 className="text-xl font-bold text-[#7B7B7B] mt-2 mb-4">
