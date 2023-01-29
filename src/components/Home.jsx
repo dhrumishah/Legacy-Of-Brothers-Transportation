@@ -20,6 +20,68 @@ const Home = () => {
         </h4>
         <img src={truck} className="absolute top-3 right-[7rem] w-6 z-[11]" />
       </div>
+      <button
+        data-collapse-toggle="navbar-hamburger"
+        type="button"
+        class="absolute top-0 right-0 z-[11] inline-flex items-center p-1 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-hamburger"
+        aria-expanded="true"
+      >
+        <span class="sr-only">Open main menu</span>
+        <svg
+          class="w-6 h-6"
+          aria-hidden="true"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+      <div
+        class="absolute right-0 top-4 hidden w-[13%] z-[11] text-[0.4rem] text-white"
+        id="navbar-hamburger"
+      >
+        <ul class="flex flex-col mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+          <li>
+            <a
+              href="/aboutus"
+              class="block py-2 pl-3 pr-4 text-white bg-blue-200 rounded dark:bg-blue-600"
+              aria-current="page"
+            >
+              About Us
+            </a>
+          </li>
+          <li>
+            <a
+              href="/culture"
+              class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            >
+              Culture
+            </a>
+          </li>
+          <li>
+            <a
+              href="/shop"
+              class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
+            >
+              Shop
+            </a>
+          </li>
+          <li>
+            <a
+              href="/contact"
+              class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
       <div className="bg-black opacity-80">
         <img src={image_1} className="absolute top-0 left-0 w-full h-auto" />
       </div>
@@ -32,13 +94,13 @@ const Home = () => {
         <div className="flex flex-col items-center justify-center">
           <button
             type="button"
-            className="py-[1px] px-1 mt-2 text-[0.3rem] font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1px] border-[#F8DA78]"
+            className="py-[1px] px-3 mt-2 text-[0.5rem] font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1px] border-[#F8DA78]"
           >
             LEARN MORE
           </button>
           <button
             type="button"
-            className="py-[1px] px-2 mt-1 text-[0.3rem] font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1px] border-[#F8DA78]"
+            className="py-[1px] px-5 mt-1 text-[0.5rem] font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1px] border-[#F8DA78]"
           >
             JOIN US
           </button>
