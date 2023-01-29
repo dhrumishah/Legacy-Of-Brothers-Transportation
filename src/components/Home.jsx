@@ -9,7 +9,7 @@ import truck from "../assets/truck.png";
 const Home = () => {
   return (
     <>
-      <div className="">
+      <div className="hidden">
         <img src={rectangle} className="absolute top-0 right-0 w-36 z-[10]" />
         <img
           src={triangle}

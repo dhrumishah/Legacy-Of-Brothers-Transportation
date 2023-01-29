@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className="px-2 sm:px-4 py-2.5 z-[2] relative">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="/" className="flex items-center">
-          <img src={logo} className="h-8 sm:h-9" />
+          <img src={logo} className="w-10 sm:h-9" />
         </a>
         <div className="hidden w-full mr-[10rem] md:block md:w-auto">
           <ul className="flex flex-col p-2 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
