@@ -106,29 +106,29 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="relative mt-[67vh]">
+      <div className="relative mt-[14vh]">
         <div className="relative">
-          <img src={image_2} className="top-0 h-screen" />
+          <img src={image_2} className="w-full h-auto top-0" />
         </div>
-        <div className="absolute top-6 right-10 p-3 text-center bg-[#e1e1e166]  text-black rounded-lg">
-          <h1 className="italic font-extrabold text-[0.8rem] leading-3">
+        <div className="absolute top-6 right-8 p-2 text-center bg-[#e1e1e166]  text-black rounded-lg">
+          <h1 className="italic font-extrabold text-[0.7rem] leading-3">
             Culture is the foundation <br /> of our success
           </h1>
-          <p className="text-[0.5rem] leading-0 mt-3 font-semibold">
+          <p className="text-[0.4rem] leading-[0.5rem] mt-3 font-semibold">
             Our drivers are the backbone of our company <br /> and we are
             committed to providing them with <br />
             the best working conditions possible!
           </p>
-          <div className="flex flex-row gap-4 mt-3 mb-4 items-center justify-center">
+          <div className="flex flex-row gap-4 mt-2 mb-2 items-center justify-center">
             <button
               type="button"
-              className="py-1 px-1 mt-4 text-[0.6rem] font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1px] border-[#F8DA78]"
+              className="py-1 px-1 mt-2 text-[0.6rem] font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1px] border-[#F8DA78]"
             >
               LEARN MORE
             </button>
             <button
               type="button"
-              className="py-1 px-2 mt-4 text-[0.6rem] font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1px] border-[#F8DA78]"
+              className="py-1 px-2 mt-2 text-[0.6rem] font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1px] border-[#F8DA78]"
             >
               BECOME A DRIVER
             </button>
