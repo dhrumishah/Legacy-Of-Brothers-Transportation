@@ -9,12 +9,12 @@ const Nav = () => {
         <a href="/" className="flex items-center">
           <img src={logo} className="h-8 sm:h-9" />
         </a>
-        <div className="hidden w-full md:block md:w-auto">
-          <ul className="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+        <div className="hidden w-full mr-[10rem] md:block md:w-auto">
+          <ul className="flex flex-col p-2 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <li>
               <a
                 href="/aboutus"
-                className="block py-2 pl-3 pr-4 italic font-bold text-blue-400 md:p-0 "
+                className="block py-2 pl-3 pr-4 italic font-bold text-white md:p-0 "
               >
                 ABOUT US
               </a>
@@ -22,7 +22,7 @@ const Nav = () => {
             <li>
               <a
                 href="/culture"
-                className="block py-2 pl-3 pr-4 italic font-bold text-blue-400 md:p-0 "
+                className="block py-2 pl-3 pr-4 italic font-bold text-white md:p-0 "
               >
                 CULTURE
               </a>
@@ -30,7 +30,7 @@ const Nav = () => {
             <li>
               <a
                 href="/shop"
-                className="block py-2 pl-3 pr-4 italic font-bold text-blue-400 md:p-0 "
+                className="block py-2 pl-3 pr-4 italic font-bold text-white md:p-0 "
               >
                 SHOP
               </a>
@@ -38,7 +38,7 @@ const Nav = () => {
             <li>
               <a
                 href="/contact"
-                className="block py-2 pl-3 pr-4 italic font-bold text-blue-400 md:p-0 "
+                className="block py-2 pl-3 pr-4 italic font-bold text-white md:p-0 "
               >
                 CONTACT
               </a>

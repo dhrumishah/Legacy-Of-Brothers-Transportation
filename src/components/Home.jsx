@@ -2,31 +2,43 @@ import React from "react";
 import image_1 from "../assets/bg_1.png";
 import image_2 from "../assets/bg_2.png";
 import image_3 from "../assets/bg_3.png";
+import rectangle from "../assets/homeRectangle.png";
+import triangle from "../assets/homeTriangle.png";
+import truck from "../assets/truck.png";
 
 const Home = () => {
   return (
     <>
-      <div className="bg-black opacity-80">
-        <img src={image_1} className="absolute top-0 left-0 h-screen" />
+      <div className="">
+        <img src={rectangle} className="absolute top-0 right-0 w-36 z-[10]" />
+        <img
+          src={triangle}
+          className="absolute top-0 right-[8.9rem] w-8 z-[10]"
+        />
+        <h4 className="absolute top-3 right-7 text-lg text-[#F8DA78] z-[11] italic font-bold">
+          DRIVERS
+        </h4>
+        <img src={truck} className="absolute top-3 right-[7rem] w-6 z-[11]" />
       </div>
-      <div className="absolute text-center bg-transparent text-white items-center justify-center w-full mt-24">
-        <h1 className="italic font-extrabold text-7xl ">
+      <div className="bg-black opacity-80">
+        <img src={image_1} className="absolute top-0 left-0 w-full h-auto" />
+      </div>
+      <div className="absolute text-center bg-transparent text-white items-center justify-center w-full mt-2">
+        <h1 className="italic font-bold text-lg leading-4">
           Building your legacy,
           <br /> one delivery at a time.
         </h1>
-        <p className="italic font-extrabold text-4xl mt-4">
-          Join Legacy of Brothers
-        </p>
+        <p className="italic font-bold text-sm mt-1">Join Legacy of Brothers</p>
         <div className="flex flex-col items-center justify-center">
           <button
             type="button"
-            className="py-3 px-12 mt-8 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1.5px] border-[#F8DA78]"
+            className="py-[1px] px-1 mt-2 text-[0.3rem] font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1px] border-[#F8DA78]"
           >
             LEARN MORE
           </button>
           <button
             type="button"
-            className="py-3 px-16 mt-4 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1.5px] border-[#F8DA78]"
+            className="py-[1px] px-2 mt-1 text-[0.3rem] font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1px] border-[#F8DA78]"
           >
             JOIN US
           </button>
