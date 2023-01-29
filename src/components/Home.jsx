@@ -106,7 +106,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="relative mt-[14vh]">
+      <div className="relative mt-[16vh]">
         <div className="relative">
           <img src={image_2} className="w-full h-auto top-0" />
         </div>
