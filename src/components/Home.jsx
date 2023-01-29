@@ -137,56 +137,56 @@ const Home = () => {
       </div>
       <div>
         <div className="">
-          <h1 className="mt-8 text-black text-7xl justify-center text-center items-center font-extrabold italic">
+          <h1 className="mt-6 text-black text-4xl justify-center text-center items-center font-extrabold italic">
             Services
           </h1>
           <div className="flex flex-row flex-wrap mt-12 justify-evenly gap-10">
             <a href="/aboutus" className="cursor-pointer">
-              <div className="box w-[50vh] p-6 items-center text-center shadow-xl">
-                <h1 className="text-4xl font-bold text-[#7B7B7B] mt-4 mb-4">
+              <div className="box w-2/3 m-auto p-4 items-center text-center shadow-xl">
+                <h1 className="text-xl font-bold text-[#7B7B7B] mt-2 mb-4">
                   Reefer Freight
                 </h1>
-                <p className="mt-4 mb-4 text-lg leading-5 p-4">
+                <p className="mt-4 mb-4 text-sm leading-5 p-2">
                   Transporting temperature-sensitive goods
                 </p>
               </div>
             </a>
             <a href="/aboutus" className="cursor-pointer">
-              <div className="box w-[50vh] p-6  items-center text-center shadow-xl">
-                <h1 className="text-4xl font-bold text-[#7B7B7B] mt-4 mb-4">
+              <div className="box w-2/3 m-auto p-4 items-center text-center shadow-xl">
+                <h1 className="text-2xl font-bold text-[#7B7B7B] mt-4 mb-4">
                   Dry Van
                 </h1>
-                <p className="mt-4 mb-4 text-lg leading-5 p-4">
+                <p className="mt-4 mb-4 text-sm leading-5 p-2">
                   Transporting non-temperature sensitive goods
                 </p>
               </div>
             </a>
             <a href="/aboutus" className="cursor-pointer">
-              <div className="box w-[50vh] p-2 items-center text-center shadow-xl">
-                <h1 className="text-4xl font-bold text-[#7B7B7B] mt-4 mb-4">
+              <div className="box w-[73%] m-auto p-6 items-center text-center shadow-xl">
+                <h1 className="text-2xl font-bold text-[#7B7B7B] mt-4 mb-4">
                   Expedited Freight
                 </h1>
-                <p className="mt-4 mb-4 text-lg leading-5 p-4">
+                <p className="mt-4 mb-4 text-sm leading-5 p-2">
                   Box truck deliver for super fast delivery
                 </p>
               </div>
             </a>
             <a href="/aboutus" className="cursor-pointer">
-              <div className="box w-[50vh] p-6 items-center text-center shadow-xl">
-                <h1 className="text-4xl font-bold text-[#7B7B7B] mt-4 mb-4">
+              <div className="box w-[78%] m-auto p-6 items-center text-center shadow-xl">
+                <h1 className="text-2xl font-bold text-[#7B7B7B] mt-4 mb-4">
                   RV Hauling
                 </h1>
-                <p className="mt-4 mb-4 text-lg leading-5 p-4">
+                <p className="mt-4 mb-4 text-sm leading-5 p-2">
                   Transportation of RVs across States
                 </p>
               </div>
             </a>
             <a href="/aboutus" className="cursor-pointer">
-              <div className="box w-[50vh] p-2 items-center text-center shadow-xl opacity-95">
-                <h1 className="text-4xl font-bold text-[#7B7B7B] mt-4 mb-4">
+              <div className="box w-[57%] m-auto p-6 items-center text-center shadow-xl">
+                <h1 className="text-2xl font-bold text-[#7B7B7B] mt-4 mb-4">
                   Pilot Car
                 </h1>
-                <p className="mt-4 mb-4 text-lg leading-5 p-4">
+                <p className="mt-4 mb-4 text-sm leading-5 p-2">
                   Provide a vehicle that leads and follows oversized or
                   over-dimensional loads during transport
                 </p>
