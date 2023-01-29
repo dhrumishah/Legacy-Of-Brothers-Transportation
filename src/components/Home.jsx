@@ -25,7 +25,7 @@ const Home = () => {
         type="button"
         class="absolute top-0 right-0 z-[11] inline-flex items-center p-1 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="navbar-hamburger"
-        aria-expanded="true"
+        aria-expanded="false"
       >
         <span class="sr-only">Open main menu</span>
         <svg
@@ -106,29 +106,29 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="relative mt-[88.3vh]">
+      <div className="relative mt-[67vh]">
         <div className="relative">
-          <img src={image_2} className=" top-0 h-screen" />
+          <img src={image_2} className="top-0 h-screen" />
         </div>
-        <div className="absolute text-center bg-[#e1e1e166] px-[5rem] text-black right-0 lg:top-[4rem] lg:mr-[10] lg:px-[3rem] rounded-lg xl:top-[6rem] xl:mr-[12rem] xl:px-[2rem] xl:py-[4rem]">
-          <h1 className="italic font-extrabold text-4xl sm:text-3xl xl:text-4xl">
+        <div className="absolute top-6 right-10 p-3 text-center bg-[#e1e1e166]  text-black rounded-lg">
+          <h1 className="italic font-extrabold text-[0.8rem] leading-3">
             Culture is the foundation <br /> of our success
           </h1>
-          <p className="text-sm leading-4 mt-8 font-bold">
+          <p className="text-[0.5rem] leading-0 mt-3 font-semibold">
             Our drivers are the backbone of our company <br /> and we are
             committed to providing them with <br />
             the best working conditions possible!
           </p>
-          <div className="flex flex-row gap-4 mt-8 mb-4 items-center justify-center">
+          <div className="flex flex-row gap-4 mt-3 mb-4 items-center justify-center">
             <button
               type="button"
-              className="py-3 px-12 mt-8 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1.5px] border-[#F8DA78]"
+              className="py-1 px-1 mt-4 text-[0.6rem] font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1px] border-[#F8DA78]"
             >
               LEARN MORE
             </button>
             <button
               type="button"
-              className="py-3 px-9 mt-8 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1.5px] border-[#F8DA78]"
+              className="py-1 px-2 mt-4 text-[0.6rem] font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1px] border-[#F8DA78]"
             >
               BECOME A DRIVER
             </button>
