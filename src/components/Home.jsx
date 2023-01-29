@@ -9,24 +9,24 @@ const Home = () => {
       <div className="bg-black opacity-80">
         <img src={image_1} className="absolute top-0 left-0 h-screen" />
       </div>
-      <div className="absolute text-center bg-transparent text-white items-center justify-center w-full mt-16">
-        <h1 className="italic font-extrabold text-5xl sm:text-4xl">
+      <div className="absolute text-center bg-transparent text-white items-center justify-center w-full mt-24">
+        <h1 className="italic font-extrabold text-7xl ">
           Building your legacy,
           <br /> one delivery at a time.
         </h1>
-        <p className="italic font-extrabold text-2xl mt-4">
+        <p className="italic font-extrabold text-4xl mt-4">
           Join Legacy of Brothers
         </p>
         <div className="flex flex-col items-center justify-center">
           <button
             type="button"
-            className="py-1.5 px-4  mt-4 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-2 border-[#F8DA78]"
+            className="py-3 px-12 mt-8 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1.5px] border-[#F8DA78]"
           >
             LEARN MORE
           </button>
           <button
             type="button"
-            className="py-1.5 px-4  mt-4 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-2 border-[#F8DA78]"
+            className="py-3 px-16 mt-4 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1.5px] border-[#F8DA78]"
           >
             JOIN US
           </button>
@@ -48,13 +48,13 @@ const Home = () => {
           <div className="flex flex-row gap-2 mt-4 mb-4 items-center justify-center">
             <button
               type="button"
-              className="py-1.5 px-4  mt-4 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-2 border-[#F8DA78]"
+              className="py-1.5 px-4  mt-4 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1.5px] border-[#F8DA78]"
             >
               LEARN MORE
             </button>
             <button
               type="button"
-              className="py-1.5 px-4  mt-4 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-2 border-[#F8DA78]"
+              className="py-1.5 px-4  mt-4 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1.5px] border-[#F8DA78]"
             >
               BECOME A DRIVER
             </button>
@@ -68,51 +68,51 @@ const Home = () => {
           </h1>
           <div className="flex flex-row flex-wrap mt-12 justify-evenly gap-10">
             <a href="/aboutus" className="cursor-pointer">
-              <div className="box w-[50vh] p-6 border-2 border-[#40909090] items-center text-center">
-                <h1 className="text-4xl font-bold text-slate-500 mt-4 mb-4">
+              <div className="box w-[50vh] p-6 items-center text-center shadow-xl">
+                <h1 className="text-4xl font-bold text-[#7B7B7B] mt-4 mb-4">
                   Reefer Freight
                 </h1>
-                <p className="mt-4 mb-4 text-lg">
+                <p className="mt-4 mb-4 text-lg leading-5 p-4">
                   Transporting temperature-sensitive goods
                 </p>
               </div>
             </a>
             <a href="/aboutus" className="cursor-pointer">
-              <div className="box w-[50vh] p-6 border-2 border-[#40909090] items-center text-center">
-                <h1 className="text-4xl font-bold text-slate-500 mt-4 mb-4">
+              <div className="box w-[50vh] p-6  items-center text-center shadow-xl">
+                <h1 className="text-4xl font-bold text-[#7B7B7B] mt-4 mb-4">
                   Dry Van
                 </h1>
-                <p className="mt-4 mb-4 text-lg">
+                <p className="mt-4 mb-4 text-lg leading-5 p-4">
                   Transporting non-temperature sensitive goods
                 </p>
               </div>
             </a>
             <a href="/aboutus" className="cursor-pointer">
-              <div className="box w-[50vh] p-1 border-2 border-[#40909090] items-center text-center">
-                <h1 className="text-4xl font-bold text-slate-500 mt-4 mb-4">
+              <div className="box w-[50vh] p-2 items-center text-center shadow-xl">
+                <h1 className="text-4xl font-bold text-[#7B7B7B] mt-4 mb-4">
                   Expedited Freight
                 </h1>
-                <p className="mt-4 mb-4 text-lg">
+                <p className="mt-4 mb-4 text-lg leading-5 p-4">
                   Box truck deliver for super fast delivery
                 </p>
               </div>
             </a>
             <a href="/aboutus" className="cursor-pointer">
-              <div className="box w-[50vh] p-6 border-2 border-[#40909090] items-center text-center">
-                <h1 className="text-4xl font-bold text-slate-500 mt-4 mb-4">
+              <div className="box w-[50vh] p-6 items-center text-center shadow-xl">
+                <h1 className="text-4xl font-bold text-[#7B7B7B] mt-4 mb-4">
                   RV Hauling
                 </h1>
-                <p className="mt-4 mb-4 text-lg">
+                <p className="mt-4 mb-4 text-lg leading-5 p-4">
                   Transportation of RVs across States
                 </p>
               </div>
             </a>
             <a href="/aboutus" className="cursor-pointer">
-              <div className="box w-[50vh] p-2 border-2 border-[#40909090] items-center text-center">
-                <h1 className="text-4xl font-bold text-slate-500 mt-4 mb-4">
+              <div className="box w-[50vh] p-2 items-center text-center shadow-xl opacity-95">
+                <h1 className="text-4xl font-bold text-[#7B7B7B] mt-4 mb-4">
                   Pilot Car
                 </h1>
-                <p className="mt-4 mb-4 text-lg">
+                <p className="mt-4 mb-4 text-lg leading-5 p-4">
                   Provide a vehicle that leads and follows oversized or
                   over-dimensional loads during transport
                 </p>
@@ -120,7 +120,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <img src={image_3} className="" />
+        <img src={image_3} className="mt-[2rem]" />
       </div>
     </>
   );

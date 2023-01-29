@@ -7,7 +7,7 @@ const Culture = () => {
       <div className="">
         <img
           src={image_5}
-          className="absolute bg-no-repeat max-h-screen bg-cover bg-center z-[-1] top-0"
+          className="absolute bg-no-repeat max-h-screen bg-cover bg-center z-[-1] top-0 w-full"
         />
       </div>
       <div className="mt-[100vh]">nkafaijsk</div>

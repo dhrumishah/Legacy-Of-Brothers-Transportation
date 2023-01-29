@@ -13,9 +13,9 @@ const Footer = () => {
         />
         <img
           src={logo}
-          className="absolute bg-no-repeat max-h-screen bg-cover bg-center z-[-1] w-1/5 border-none left-3 top-3"
+          className="absolute bg-no-repeat max-h-screen bg-cover bg-center z-[-1] w-1/5 border-none top-5 sm:w-[10%] md:w-[15%] md:left-[4rem] lg:w-[20%] lg:left-[5rem] xl:w-[22%] xl:left-[7rem]"
         />
-        <div className="flex flex-row-reverse justify-items-end gap-[4.5rem] px-20 pt-14 text-white">
+        <div className="flex flex-row-reverse justify-items-end text-white sm:gap-2 md:gap-4 lg:gap-10 lg:px-[5rem] lg:text-base lg:pt-14 xl:gap-10 xl:px-[7rem] xl:text-lg xl:pt-16">
           <div>Online Store</div>
           <Link to="/culture">
             <div>Culture</div>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="text-center text-white font-light mt-9">
+        <div className="text-center text-white font-light xl:mt-[5rem] xl:text-2xl">
           Copyright © Legacy of Brothers Transportation
         </div>
       </div>
