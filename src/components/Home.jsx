@@ -36,7 +36,7 @@ const Home = () => {
         <div className="relative">
           <img src={image_2} className=" top-0 h-screen" />
         </div>
-        <div className="absolute text-center bg-[#e1e1e166] p-[5rem] text-black right-0 lg:top-[20rem] lg:mr-28 rounded-lg xl:top-[6rem] xl:mr-[12rem] xl:p-[4rem]">
+        <div className="absolute text-center bg-[#e1e1e166] px-[5rem] text-black right-0 lg:top-[4rem] lg:mr-[10] lg:px-[3rem] rounded-lg xl:top-[6rem] xl:mr-[12rem] xl:px-[2rem] xl:py-[4rem]">
           <h1 className="italic font-extrabold text-4xl sm:text-3xl xl:text-4xl">
             Culture is the foundation <br /> of our success
           </h1>
@@ -45,16 +45,16 @@ const Home = () => {
             committed to providing them with <br />
             the best working conditions possible!
           </p>
-          <div className="flex flex-row gap-2 mt-4 mb-4 items-center justify-center">
+          <div className="flex flex-row gap-4 mt-8 mb-4 items-center justify-center">
             <button
               type="button"
-              className="py-1.5 px-4  mt-4 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1.5px] border-[#F8DA78]"
+              className="py-3 px-12 mt-8 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1.5px] border-[#F8DA78]"
             >
               LEARN MORE
             </button>
             <button
               type="button"
-              className="py-1.5 px-4  mt-4 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1.5px] border-[#F8DA78]"
+              className="py-3 px-9 mt-8 text-sm font-medium text-[#F8DA78] bg-[#717171] rounded-lg border-[1.5px] border-[#F8DA78]"
             >
               BECOME A DRIVER
             </button>
