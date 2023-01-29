@@ -32,11 +32,11 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="mt-[88.3vh]">
+      <div className="relative mt-[88.3vh]">
         <div className="relative">
           <img src={image_2} className=" top-0 h-screen" />
         </div>
-        <div className="absolute text-center bg-[#e1e1e166] p-[5rem] text-black right-0 lg:top-[100rem] lg:mr-28 rounded-lg xl:top-[100rem] xl:mr-[14rem] xl:p-[6.5rem]">
+        <div className="absolute text-center bg-[#e1e1e166] p-[5rem] text-black right-0 lg:top-[20rem] lg:mr-28 rounded-lg xl:top-[20rem] xl:mr-[14rem] xl:p-[6.5rem]">
           <h1 className="italic font-extrabold text-4xl sm:text-3xl xl:text-4xl">
             Culture is the foundation <br /> of our success
           </h1>
