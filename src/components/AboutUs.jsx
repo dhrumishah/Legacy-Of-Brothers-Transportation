@@ -14,16 +14,16 @@ const AboutUs = () => {
           src={image_1}
           className="bg-no-repeat max-h-screen bg-cover bg-center w-full z-[-1]"
         />
-        <div className="absolute top-[55%] left-[40%] translate-x-[-50%] translate-y-[-50%] w-[68%] text-center">
+        <div className="absolute top-[55%] left-[37%] translate-x-[-50%] translate-y-[-50%] w-[68%] text-center">
           <img src={comma} className="absolute w-8 -top-3 -left-3" />
-          <h4 className="text-[0.75rem] font-extrabold leading-3">
+          <h4 className="text-[0.7rem] font-extrabold leading-3">
             Here at Legacy of Brothers Transportation our mission is not to
           </h4>
-          <h4 className="text-[0.75rem] font-extrabold">
+          <h4 className="text-[0.7rem] font-extrabold">
             just provide timely & safe delivery but superior customer service.
           </h4>
-          <img src={comma} className="absolute w-8 top-3 -right-3" />
-          <p className="text-[0.6rem] mt-4 leading-3 font-medium">
+          <img src={comma} className="absolute w-8 top-3 -right-4" />
+          <p className="text-[0.5rem] mt-4 leading-3 font-medium px-3">
             With dedicated drivers fostering amazing teamwork; constantly
             challenging ourselves to build new standards of quality and
             performance through leadership, respect, transparency and
@@ -34,29 +34,29 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="bg-[#F8F8F8]">
-        <div className="p-8 bg-[#686868] text-4xl font-bold text-[#F8DA78] ">
+        <div className="p-6 bg-[#686868] text-4xl font-bold text-[#F8DA78] md:text-xl">
           Our Services
         </div>
-        <div className="flex flex-col gap-2 py-12 px-24 mt-4 w-auto m-auto">
-          <p>
+        <div className="flex flex-col gap-2 py-10 px-20 mt-4 w-auto m-auto">
+          <p className="lg:text-[0.1rem] xl:text-[0.9rem]">
             "Our company specializes in providing both reefer and dry van
             transportation services.
           </p>
-          <p>
+          <p className="lg:text-[0.1rem] xl:text-[0.9rem]">
             Our reefer services involve transporting temperature-sensitive
             goods, such as fresh produce and pharmaceuticals, in refrigerated
             trailers. These trailers are equipped with temperature control
             systems to ensure that your goods are delivered in the same
             condition as when they were picked up.
           </p>
-          <p>
+          <p className="lg:text-[0.1rem] xl:text-[0.9rem]">
             Our dry van services involve transporting non-temperature sensitive
             goods, such as clothing and furniture, in standard trailers. These
             trailers are designed to protect your goods from the elements and
             ensure that they are delivered in the same condition as when they
             were picked up.
           </p>
-          <p>
+          <p className="lg:text-[0.1rem] xl:text-[0.9rem]">
             Our expedited box delivery service is designed for customers who
             need their cargo delivered as quickly as possible. With our advanced
             logistics and experienced team of drivers, we are able to transport
@@ -65,7 +65,7 @@ const AboutUs = () => {
             expedited box delivery service is the ideal choice for customers who
             demand speed and reliability.
           </p>
-          <p>
+          <p className="lg:text-[0.1rem] xl:text-[0.9rem]">
             "We pride ourselves on providing reliable and efficient service, and
             our team of experienced drivers and logistics professionals are
             dedicated to ensuring that your goods are delivered on time and in
