@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <div className="bg-[#F8F8F8]">
       <div className="flex justify-center align-middle">
-        <div className="flex justify-between w-1/2 mt-12">
-          <div className="flex flex-col justify-between w-1/2">
+        <div className="flex justify-between mt-24 gap-14">
+          <div className="flex flex-col gap-10 w-[75%]">
             <h1 className="font-bold text-2xl">Contact Us</h1>
             <div>
               <label
@@ -29,9 +29,9 @@ const Contact = () => {
               </select>
             </div>
           </div>
-          <div className="flex flex-col ">
-            <h1 className="font-bold">Mailing Address</h1>
-            <div className="flex flex-col mt-5 text-xs gap-1 font-light">
+          <div className="flex flex-col w-[60%]">
+            <h1 className="font-bold text-2xl">Mailing Address</h1>
+            <div className="flex flex-col mt-5 text-sm gap-1 font-light">
               <span>Legacy of Brothers Transportation</span>
               <span>LLC</span>
               <span>PO BOX 417</span>
