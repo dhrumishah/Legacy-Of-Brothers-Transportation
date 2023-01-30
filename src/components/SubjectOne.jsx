@@ -35,6 +35,8 @@ const SubjectOne = () => {
               <option value="reefer">Reefer</option>
               <option value="dry_van">Dry Van</option>
               <option value="eb_truck">Expedited Box Truck </option>
+              <option value="pilot_car">Pilot Car </option>
+              <option value="rv_haul">RV Haul</option>
             </select>
           </div>
         </div>

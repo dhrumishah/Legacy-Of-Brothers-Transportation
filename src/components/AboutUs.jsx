@@ -37,7 +37,7 @@ const AboutUs = () => {
         <div className="p-5 bg-[#686868] text-4xl font-bold text-[#F8DA78] md:text-xl">
           Our Services
         </div>
-        <div className="flex flex-col gap-2 py-8 px-28 mt-4 w-auto m-auto">
+        <div className="flex flex-col gap-2 py-12 px-28 mt-4 w-auto m-auto lg:px-32">
           <p className="xl:text-[0.5rem]">
             "Our company specializes in providing both reefer and dry van
             transportation services.
@@ -66,7 +66,22 @@ const AboutUs = () => {
             demand speed and reliability.
           </p>
           <p className="xl:text-[0.5rem]">
-            "We pride ourselves on providing reliable and efficient service, and
+            Our RV hauling services are designed to safely and efficiently
+            transport your recreational vehicle to any destination, whether it's
+            across town or across the country. Our experienced drivers have the
+            expertise and equipment to handle even the largest RVs, ensuring
+            that your vehicle arrives at its destination in the same condition
+            as it left.
+          </p>
+          <p className="xl:text-[0.5rem]">
+            Our Pilot car services are also available to assist with the safe
+            and efficient transport of over-dimensional loads. Our highly
+            trained and certified pilot car operators will lead the way and
+            provide necessary escorts, ensuring that your cargo arrives safely
+            and on time.
+          </p>
+          <p className="xl:text-[0.5rem]">
+            We pride ourselves on providing reliable and efficient service, and
             our team of experienced drivers and logistics professionals are
             dedicated to ensuring that your goods are delivered on time and in
             perfect condition."
