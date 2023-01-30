@@ -4,7 +4,7 @@ import Button from "./Button";
 const SubjectOne = () => {
   return (
     <div className="flex flex-col gap-10">
-      <div className="flex w-full gap-10 sm:gap-16 md:gap-14 md:ml-20">
+      <div className="flex w-full gap-10 sm:gap-16 md:gap-14 md:ml-20 flex-col md:flex-row">
         <div className="flex flex-col gap-10">
           <div>
             <input

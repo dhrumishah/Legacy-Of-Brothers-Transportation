@@ -13,13 +13,13 @@ const Home = () => {
       <div class="firstcontainer relative">
         <img src={image_1} alt="firstcontainer_truck" class="brightness-90" />
         <div class="imagetextcontainer flex flex-col items-center justify-center w-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
-          <h1 class="text-2xl md:text-[3xl] xl:text-[6xl] mt-5 text-white font-extrabold italic">
+          <h1 class="text-3xl md:text-[4xl] xl:text-[7xl] mt-5 text-white font-extrabold italic">
             Building your legacy,
           </h1>
-          <h1 class="text-2xl md:text-[3xl] xl:text-[6xl] text-white font-extrabold italic">
+          <h1 class="text-3xl md:text-[4xl] xl:text-[7xl] text-white font-extrabold italic">
             one delivery at a time.
           </h1>
-          <h2 class="text-sm xl:text-[md] mb-1 mt-2 text-white font-extrabold italic">
+          <h2 class="text-xl md:text-[2.5xl] xl:text-[2xl] mb-1 mt-2 text-white font-extrabold italic">
             Join Legacy of Brothers
           </h2>
           <button class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] xl:text-[.4rem] px-4 py-1 mb-2 mt-4 min-w-[4rem]">
@@ -32,12 +32,12 @@ const Home = () => {
       </div>
       <div class="secondcontainer relative">
         <img src={image_2} alt="secondcontainer_person" class="brightness-90" />
-        <div class="absolute top-[20%] right-[15%] h-40 text-center bg-[#e1e1e166] text-black rounded-md backdrop-blur-sm flex flex-col justify-evenly p-3">
-          <h1 class="italic font-extrabold text-[0.8rem] leading-3">
+        <div class="absolute top-[20%] right-[15%] h-40 text-center bg-[#e1e1e166] text-black rounded-md  flex flex-col justify-evenly p-3">
+          <h1 class="italic font-extrabold text-[0.9rem] leading-3">
             Culture is the foundation <br />
             of our success
           </h1>
-          <p class="text-[0.45rem] leading-[0.6rem] font-semibold">
+          <p class="text-[0.5rem] leading-[0.6rem] font-semibold">
             Our drivers are the backbone of our company <br />
             and we are committed to providing them with <br />
             the best working conditions possible!
@@ -60,60 +60,64 @@ const Home = () => {
       </div>
       <div class="thirdcontainer services flex flex-col items-center pt-6 pb-6">
         <h1 class="text-center font-extrabold text-4xl mb-4">Services</h1>
-        <div class="services-type flex flex-col justify-center items-center gap-8 md:flex-row flex-wrap">
+        <div class="services-type flex flex-col justify-center items-center gap-8 md:flex-row md:gap-6 flex-wrap">
           <Link to="/aboutus">
-            <div class="box w-[16rem] mt-3 p-2 text-center shadow-md md:shadow-xl">
+            <div class="box w-[10rem] mt-3 p-2 text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
                 Reefer Freight
               </h1>
-              <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
+              <p class="mt-4 mb-4 text-[.6rem] leading-3 p-2">
                 Transporting temperature-sensitive goods
               </p>
             </div>
           </Link>
           <Link to="/aboutus">
-            <div class="box w-[16rem] p-2 text-center shadow-md md:shadow-xl">
+            <div class="box w-[10rem] p-2 text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">Dry Van</h1>
-              <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
+              <p class="mt-4 mb-4 text-[.6rem] leading-3 p-2">
                 Transporting non-temperature sensitive goods
               </p>
             </div>
           </Link>
           <Link to="/aboutus">
-            <div class="box w-[16rem] p-2 text-center shadow-md md:shadow-xl">
+            <div class="box w-[10rem] p-2 text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
                 Expedited Freight
               </h1>
-              <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
+              <p class="mt-4 mb-4 text-[.6rem] leading-3 p-2">
                 Box truck deliver for super fast delivery
               </p>
             </div>
           </Link>
           <Link to="/aboutus">
-            <div class="box w-[16rem] p-2 text-center shadow-md md:shadow-xl">
-              <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
+            <div class="box w-[10rem] p-2 text-center shadow-md md:shadow-xl">
+              <h1 class="text-s font-bold text-[#7B7B7B] -mt-1 mb-4">
                 RV Hauling
               </h1>
-              <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
+              <p class="mt-4 mb-4 text-[.6rem] leading-3 p-1">
                 Transportation of RVs across States
               </p>
             </div>
           </Link>
           <Link to="/aboutus">
-            <div class="box w-[16rem] p-2 text-center shadow-md md:shadow-xl">
+            <div class="box w-[10rem]  text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
                 Pilot Car
               </h1>
-              <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
+              <p class="mt-4 mb-4 text-[.6rem] leading-3 p-2">
                 Provide a vehicle that leads and follows oversized or
                 over-dimensional loads during transport
               </p>
             </div>
           </Link>
         </div>
-      </div>
-      <div class="fourthcontainer">
-        <img src={image_3} alt="lastcontainer_manytrucks" className="w-full" />
+        <div class="fourthcontainer">
+          <img
+            src={image_3}
+            alt="lastcontainer_manytrucks"
+            className="w-full"
+          />
+        </div>
       </div>
     </>
     //   <>
