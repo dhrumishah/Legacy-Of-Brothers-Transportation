@@ -58,28 +58,43 @@ const Home = () => {
         </div>
       </div>
       <div class="thirdcontainer services flex flex-col items-center pt-6 pb-6">
-        <h1 class="text-center font-extrabold text-2xl mb-4">Services</h1>
+        <h1 class="text-center font-extrabold text-4xl mb-4">Services</h1>
         <div class="services-type flex flex-col justify-center items-center gap-8 md:flex-row flex-wrap">
-          <div class="box w-[14rem] text-center shadow-md md:shadow-xl">
-            <h1 class="text-xs font-bold text-[#7B7B7B] mt-2 mb-4">
+          <div class="box w-[16rem] mt-3 text-center shadow-md md:shadow-xl">
+            <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
               Reefer Freight
             </h1>
-            <p class="mt-4 mb-4 text-[.5rem] leading-5 p-2">
+            <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
               Transporting temperature-sensitive goods
             </p>
           </div>
-          <div class="box w-[14rem] text-center shadow-md md:shadow-xl">
-            <h1 class="text-xs font-bold text-[#7B7B7B] mt-2 mb-4">Dry Van</h1>
-            <p class="mt-4 mb-4 text-[.5rem] leading-5 p-2">
+          <div class="box w-[16rem] text-center shadow-md md:shadow-xl">
+            <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">Dry Van</h1>
+            <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
               Transporting non-temperature sensitive goods
             </p>
           </div>
-          <div class="box w-[14rem] text-center shadow-md md:shadow-xl">
-            <h1 class="text-xs font-bold text-[#7B7B7B] mt-2 mb-4">
+          <div class="box w-[16rem] text-center shadow-md md:shadow-xl">
+            <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
               Expedited Freight
             </h1>
-            <p class="mt-4 mb-4 text-[.5rem] leading-5 p-2">
+            <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
               Box truck deliver for super fast delivery
+            </p>
+          </div>
+          <div class="box w-[16rem] text-center shadow-md md:shadow-xl">
+            <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
+              RV Hauling
+            </h1>
+            <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
+              Transportation of RVs across States
+            </p>
+          </div>
+          <div class="box w-[16rem] text-center shadow-md md:shadow-xl">
+            <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">Pilot Car</h1>
+            <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
+              Provide a vehicle that leads and follows oversized or
+              over-dimensional loads during transport
             </p>
           </div>
         </div>
