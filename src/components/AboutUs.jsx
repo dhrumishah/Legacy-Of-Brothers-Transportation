@@ -15,14 +15,14 @@ const AboutUs = () => {
           className="bg-no-repeat max-h-screen bg-cover bg-center w-full z-[-1]"
         />
         <div className="absolute top-[55%] left-[40%] translate-x-[-50%] translate-y-[-50%] w-[68%] text-center">
-          <img src={comma} className="absolute w-8 -top-3 -left-6" />
+          <img src={comma} className="absolute w-8 -top-3 -left-3" />
           <h4 className="text-[0.75rem] font-extrabold leading-3">
             Here at Legacy of Brothers Transportation our mission is not to
           </h4>
           <h4 className="text-[0.75rem] font-extrabold">
             just provide timely & safe delivery but superior customer service.
           </h4>
-          <img src={comma} className="absolute w-8 top-3 -right-6" />
+          <img src={comma} className="absolute w-8 top-3 -right-3" />
           <p className="text-[0.6rem] mt-4 leading-3 font-medium">
             With dedicated drivers fostering amazing teamwork; constantly
             challenging ourselves to build new standards of quality and
