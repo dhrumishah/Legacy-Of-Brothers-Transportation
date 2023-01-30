@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const AboutUs = () => {
   return (
     <>
-      <div className="relative">
+      <div className="relative bg-[#F8F8F8">
         <img
           src={image_1}
           className="bg-no-repeat max-h-screen bg-cover bg-center w-full z-[-1]"
@@ -22,7 +22,7 @@ const AboutUs = () => {
           <h4 className="text-[0.75rem] font-extrabold">
             just provide timely & safe delivery but superior customer service.
           </h4>
-          <img src={comma} className="absolute w-8 top-3 -right-8" />
+          <img src={comma} className="absolute w-8 top-3 -right-6" />
           <p className="text-[0.6rem] mt-4 leading-3 font-medium">
             With dedicated drivers fostering amazing teamwork; constantly
             challenging ourselves to build new standards of quality and
@@ -72,10 +72,10 @@ const AboutUs = () => {
             perfect condition."
           </p>
         </div>
-        <div className="text-center text-[#737373] text-4xl font-bold p-9">
+        <div className="text-center text-[#737373] text-4xl font-bold p-7">
           Join the Brotherhood
         </div>
-        <div className="flex justify-evenly gap-10 m w-2/3 align-middle m-auto py-10 mb-16">
+        <div className="flex bg-[#F8F8F8 justify-evenly gap-10 m w-2/3 align-middle m-auto py-12 ">
           <Link to="/contact">
             <div className="">
               <img src={image_21} className="max-w-full" />

@@ -37,7 +37,7 @@ const Home = () => {
             Culture is the foundation <br />
             of our success
           </h1>
-          <p class="text-[0.4rem] leading-[0.6rem] font-semibold">
+          <p class="text-[0.45rem] leading-[0.6rem] font-semibold">
             Our drivers are the backbone of our company <br />
             and we are committed to providing them with <br />
             the best working conditions possible!
@@ -113,7 +113,7 @@ const Home = () => {
         </div>
       </div>
       <div class="fourthcontainer">
-        <img src={image_3} alt="lastcontainer_manytrucks" />
+        <img src={image_3} alt="lastcontainer_manytrucks" className="w-full" />
       </div>
     </>
     //   <>
