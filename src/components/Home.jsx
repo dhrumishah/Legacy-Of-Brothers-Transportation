@@ -5,6 +5,7 @@ import image_3 from "../assets/bg_3.png";
 import rectangle from "../assets/homeRectangle.png";
 import triangle from "../assets/homeTriangle.png";
 import truck from "../assets/truck.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -31,7 +32,7 @@ const Home = () => {
       </div>
       <div class="secondcontainer relative">
         <img src={image_2} alt="secondcontainer_person" class="brightness-90" />
-        <div class="absolute top-[30%] right-[20%] h-40 text-center bg-[#e1e1e166] text-black rounded-md backdrop-blur-sm flex flex-col justify-evenly p-2">
+        <div class="absolute top-[20%] right-[15%] h-40 text-center bg-[#e1e1e166] text-black rounded-md backdrop-blur-sm flex flex-col justify-evenly p-3">
           <h1 class="italic font-extrabold text-[0.8rem] leading-3">
             Culture is the foundation <br />
             of our success
@@ -44,13 +45,13 @@ const Home = () => {
           <div class="flex flex-row gap-4 items-center justify-center">
             <button
               type="button"
-              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem]  px-4 py-1 xl:text-[.3rem]"
+              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem]  px-4 py-1 xl:text-[.4rem]"
             >
               LEARN MORE
             </button>
             <button
               type="button"
-              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] px-3 py-1 xl:text-[.3rem]"
+              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] px-3 py-1 xl:text-[.4rem]"
             >
               BECOME A DRIVER
             </button>
@@ -60,43 +61,55 @@ const Home = () => {
       <div class="thirdcontainer services flex flex-col items-center pt-6 pb-6">
         <h1 class="text-center font-extrabold text-4xl mb-4">Services</h1>
         <div class="services-type flex flex-col justify-center items-center gap-8 md:flex-row flex-wrap">
-          <div class="box w-[16rem] mt-3 text-center shadow-md md:shadow-xl">
-            <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
-              Reefer Freight
-            </h1>
-            <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
-              Transporting temperature-sensitive goods
-            </p>
-          </div>
-          <div class="box w-[16rem] text-center shadow-md md:shadow-xl">
-            <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">Dry Van</h1>
-            <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
-              Transporting non-temperature sensitive goods
-            </p>
-          </div>
-          <div class="box w-[16rem] text-center shadow-md md:shadow-xl">
-            <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
-              Expedited Freight
-            </h1>
-            <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
-              Box truck deliver for super fast delivery
-            </p>
-          </div>
-          <div class="box w-[16rem] text-center shadow-md md:shadow-xl">
-            <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
-              RV Hauling
-            </h1>
-            <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
-              Transportation of RVs across States
-            </p>
-          </div>
-          <div class="box w-[16rem] text-center shadow-md md:shadow-xl">
-            <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">Pilot Car</h1>
-            <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
-              Provide a vehicle that leads and follows oversized or
-              over-dimensional loads during transport
-            </p>
-          </div>
+          <Link to="/aboutus">
+            <div class="box w-[16rem] mt-3 p-2 text-center shadow-md md:shadow-xl">
+              <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
+                Reefer Freight
+              </h1>
+              <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
+                Transporting temperature-sensitive goods
+              </p>
+            </div>
+          </Link>
+          <Link to="/aboutus">
+            <div class="box w-[16rem] p-2 text-center shadow-md md:shadow-xl">
+              <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">Dry Van</h1>
+              <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
+                Transporting non-temperature sensitive goods
+              </p>
+            </div>
+          </Link>
+          <Link to="/aboutus">
+            <div class="box w-[16rem] p-2 text-center shadow-md md:shadow-xl">
+              <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
+                Expedited Freight
+              </h1>
+              <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
+                Box truck deliver for super fast delivery
+              </p>
+            </div>
+          </Link>
+          <Link to="/aboutus">
+            <div class="box w-[16rem] p-2 text-center shadow-md md:shadow-xl">
+              <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
+                RV Hauling
+              </h1>
+              <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
+                Transportation of RVs across States
+              </p>
+            </div>
+          </Link>
+          <Link to="/aboutus">
+            <div class="box w-[16rem] p-2 text-center shadow-md md:shadow-xl">
+              <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
+                Pilot Car
+              </h1>
+              <p class="mt-4 mb-4 text-[.6rem] leading-5 p-2">
+                Provide a vehicle that leads and follows oversized or
+                over-dimensional loads during transport
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
       <div class="fourthcontainer">

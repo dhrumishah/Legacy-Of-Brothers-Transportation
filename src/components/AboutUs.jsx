@@ -9,17 +9,35 @@ import { Link } from "react-router-dom";
 const AboutUs = () => {
   return (
     <>
-      <div className="">
+      <div className="relative">
         <img
           src={image_1}
-          className="absolute bg-no-repeat max-h-screen bg-cover bg-center w-full z-[-1] top-0"
+          className="bg-no-repeat max-h-screen bg-cover bg-center w-full z-[-1]"
         />
+        <div className="absolute top-[55%] left-[40%] translate-x-[-50%] translate-y-[-50%] w-[68%] text-center">
+          <img src={comma} className="absolute w-8 -top-3 -left-6" />
+          <h4 className="text-[0.75rem] font-extrabold leading-3">
+            Here at Legacy of Brothers Transportation our mission is not to
+          </h4>
+          <h4 className="text-[0.75rem] font-extrabold">
+            just provide timely & safe delivery but superior customer service.
+          </h4>
+          <img src={comma} className="absolute w-8 top-3 -right-8" />
+          <p className="text-[0.6rem] mt-4 leading-3 font-medium">
+            With dedicated drivers fostering amazing teamwork; constantly
+            challenging ourselves to build new standards of quality and
+            performance through leadership, respect, transparency and
+            commitment. We focus on personal achievement with "I Can" and
+            teamwork with "We Can", but creating a legacy together is the
+            ultimate goal.
+          </p>
+        </div>
       </div>
-      <div className="mt-[86.5vh] bg-[#F8F8F8]">
+      <div className="bg-[#F8F8F8]">
         <div className="p-8 bg-[#686868] text-4xl font-bold text-[#F8DA78] ">
           Our Services
         </div>
-        <div className="flex flex-col gap-2 py-12 mt-4 w-1/2 m-auto">
+        <div className="flex flex-col gap-2 py-12 px-24 mt-4 w-auto m-auto">
           <p>
             "Our company specializes in providing both reefer and dry van
             transportation services.
@@ -60,8 +78,8 @@ const AboutUs = () => {
         <div className="flex justify-evenly gap-10 m w-2/3 align-middle m-auto py-10 mb-16">
           <Link to="/contact">
             <div className="">
-              <img src={image_21} className="max-w-full " />
-              <div className="text-center font-bold text-lg bg-[#757575] text-white rounded-sm p-1 -my-1">
+              <img src={image_21} className="max-w-full" />
+              <div className="text-center font-semibold text-xs bg-[#757575] text-white rounded-sm p-1 -my-1">
                 Future Customer
               </div>
             </div>
@@ -69,7 +87,7 @@ const AboutUs = () => {
           <Link to="/contact">
             <div className="">
               <img src={image_22} className="max-w-full" />
-              <div className="text-center font-bold text-lg bg-[#757575] text-white rounded-sm p-1 -my-1">
+              <div className="text-center font-semibold text-xs bg-[#757575] text-white rounded-sm p-1 -my-1">
                 Future Operator
               </div>
             </div>
@@ -77,7 +95,7 @@ const AboutUs = () => {
           <Link to="/contact">
             <div>
               <img src={image_23} className="w-full" />
-              <div className="text-center font-bold text-lg bg-[#757575] text-white rounded-sm p-1 -my-1">
+              <div className="text-center font-semibold text-[0.6rem] bg-[#757575] text-white rounded-sm py-1 -my-1">
                 Future Owner Operator
               </div>
             </div>
