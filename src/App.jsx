@@ -13,7 +13,7 @@ function App() {
     <div>
       <BrowserRouter>
         <div className="relative">
-          {/* <Nav /> */}
+          <Nav />
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/aboutus" element={<AboutUs />} />
