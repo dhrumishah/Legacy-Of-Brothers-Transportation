@@ -12,19 +12,19 @@ const Home = () => {
       <div class="firstcontainer relative">
         <img src={image_1} alt="firstcontainer_truck" class="brightness-90" />
         <div class="imagetextcontainer flex flex-col items-center justify-center w-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
-          <h1 class="text-2xl xl:text-[6xl] text-white font-extrabold italic">
+          <h1 class="text-2xl md:text-[3xl] xl:text-[6xl] mt-5 text-white font-extrabold italic">
             Building your legacy,
           </h1>
-          <h1 class="text-2xl xl:text-[6xl] text-white font-extrabold italic">
+          <h1 class="text-2xl md:text-[3xl] xl:text-[6xl] text-white font-extrabold italic">
             one delivery at a time.
           </h1>
-          <h2 class="text-sm xl:text-[md] mb-1 text-white font-extrabold italic">
+          <h2 class="text-sm xl:text-[md] mb-1 mt-2 text-white font-extrabold italic">
             Join Legacy of Brothers
           </h2>
-          <button class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-sm text-[.5rem] xl:text-[.3rem] px-4 py-2 mb-2 min-w-[4rem]">
+          <button class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] xl:text-[.4rem] px-4 py-1 mb-2 mt-4 min-w-[4rem]">
             LEARN MORE
           </button>
-          <button class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-sm text-[.5rem] xl:text-[.3rem] px-4 py-2 mb-2 min-w-[4rem]">
+          <button class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] xl:text-[.4rem] px-6 py-1 mb-2 min-w-[4rem]">
             JOIN US
           </button>
         </div>
@@ -44,13 +44,13 @@ const Home = () => {
           <div class="flex flex-row gap-4 items-center justify-center">
             <button
               type="button"
-              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-sm text-[.5rem] xl:text-[.3rem] px-4 py-2"
+              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem]  px-4 py-1 xl:text-[.3rem]"
             >
               LEARN MORE
             </button>
             <button
               type="button"
-              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-sm text-[.5rem] xl:text-[.3rem] px-4 py-2"
+              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] px-3 py-1 xl:text-[.3rem]"
             >
               BECOME A DRIVER
             </button>
