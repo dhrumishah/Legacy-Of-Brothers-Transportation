@@ -34,29 +34,29 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="bg-[#F8F8F8]">
-        <div className="p-6 bg-[#686868] text-4xl font-bold text-[#F8DA78] md:text-xl">
+        <div className="p-5 bg-[#686868] text-4xl font-bold text-[#F8DA78] md:text-xl">
           Our Services
         </div>
-        <div className="flex flex-col gap-2 py-10 px-20 mt-4 w-auto m-auto">
-          <p className="lg:text-[0.1rem] xl:text-[0.9rem]">
+        <div className="flex flex-col gap-2 py-8 px-28 mt-4 w-auto m-auto">
+          <p className="xl:text-[0.5rem]">
             "Our company specializes in providing both reefer and dry van
             transportation services.
           </p>
-          <p className="lg:text-[0.1rem] xl:text-[0.9rem]">
+          <p className="xl:text-[0.5rem]">
             Our reefer services involve transporting temperature-sensitive
             goods, such as fresh produce and pharmaceuticals, in refrigerated
             trailers. These trailers are equipped with temperature control
             systems to ensure that your goods are delivered in the same
             condition as when they were picked up.
           </p>
-          <p className="lg:text-[0.1rem] xl:text-[0.9rem]">
+          <p className="xl:text-[0.5rem]">
             Our dry van services involve transporting non-temperature sensitive
             goods, such as clothing and furniture, in standard trailers. These
             trailers are designed to protect your goods from the elements and
             ensure that they are delivered in the same condition as when they
             were picked up.
           </p>
-          <p className="lg:text-[0.1rem] xl:text-[0.9rem]">
+          <p className="xl:text-[0.5rem]">
             Our expedited box delivery service is designed for customers who
             need their cargo delivered as quickly as possible. With our advanced
             logistics and experienced team of drivers, we are able to transport
@@ -65,7 +65,7 @@ const AboutUs = () => {
             expedited box delivery service is the ideal choice for customers who
             demand speed and reliability.
           </p>
-          <p className="lg:text-[0.1rem] xl:text-[0.9rem]">
+          <p className="xl:text-[0.5rem]">
             "We pride ourselves on providing reliable and efficient service, and
             our team of experienced drivers and logistics professionals are
             dedicated to ensuring that your goods are delivered on time and in
