@@ -15,7 +15,7 @@ const Footer = () => {
           src={logo}
           className="absolute bg-no-repeat max-h-screen bg-cover bg-center z-[-1] w-[18%] border-none top-4 left-7 sm:left-12 md:left-12 lg:left-16"
         />
-        <div className="flex flex-row-reverse text-[0.6rem] pt-6 gap-5 mr-16 justify-items-end text-white sm:gap-3 sm:text-[0.65rem] md:gap-3 md:text-[0.6rem] lg:gap-4 lg:text-[0.6rem] xl:text-[0.55rem]">
+        <div className="flex flex-row-reverse text-[0.65rem] pt-6 gap-5 mr-9 justify-items-end text-white sm:gap-3 sm:text-[0.65rem] md:gap-3 md:text-[0.6rem] lg:gap-4 lg:text-[0.6rem] xl:text-[0.55rem]">
           <div>Online Store</div>
           <Link to="/culture">
             <div>Culture</div>
