@@ -111,13 +111,9 @@ const Home = () => {
             </div>
           </Link>
         </div>
-        <div class="fourthcontainer">
-          <img
-            src={image_3}
-            alt="lastcontainer_manytrucks"
-            className="w-full"
-          />
-        </div>
+      </div>
+      <div class="fourthcontainer">
+        <img src={image_3} alt="lastcontainer_manytrucks" className="w-full" />
       </div>
     </>
     //   <>
