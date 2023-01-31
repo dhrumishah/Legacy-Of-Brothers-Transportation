@@ -3,9 +3,9 @@ import Button from "./Button";
 
 const SubjectOne = () => {
   return (
-    <div className="flex flex-col gap-10 ">
-      <div className="flex w-full gap-10 sm:gap-16 md:gap-10 flex-col md:flex-row">
-        <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 xl:gap-5">
+      <div className="flex w-full gap-10 sm:gap-16 md:gap-10 flex-col md:flex-row xl:flex-row xl:gap-5">
+        <div className="flex flex-col gap-10 xl:gap-5">
           <div>
             <input
               type="text"
@@ -40,7 +40,7 @@ const SubjectOne = () => {
             </select>
           </div>
         </div>
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-10 xl:gap-5">
           <div>
             <input
               type="email"
@@ -64,7 +64,7 @@ const SubjectOne = () => {
           </div>
         </div>
       </div>
-      <div className="w-full">
+      <div className="w-full ">
         <textarea
           id="message"
           rows="8"
