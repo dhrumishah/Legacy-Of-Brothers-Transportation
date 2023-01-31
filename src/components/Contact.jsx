@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="w-[70%] md:w-[50%]">
               <label
                 for="subject"
-                class="block mb-2 text-sm md:text-xs xl:text-[0.7rem] font-medium text-gray-900 dark:text-white"
+                class="block mb-2 text-sm md:text-xs xl:text-[0.7rem] font-medium text-gray-900 "
               >
                 Subject*
               </label>
