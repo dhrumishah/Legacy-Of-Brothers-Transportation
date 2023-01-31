@@ -1,6 +1,9 @@
 import React from "react";
 import Button from "./Button";
+import SubjectFour from "./SubjectFour";
 import SubjectOne from "./SubjectOne";
+import SubjectThree from "./SubjectThree";
+import SubjectTwo from "./SubjectTwo";
 
 const Contact = () => {
   return (
@@ -30,8 +33,11 @@ const Contact = () => {
                 <option value="FB">Feedback</option>
               </select>
             </div>
-            <div className="mt-16 w-60 md:flex md:w-80 xl:mt-0">
-              <SubjectOne />
+            <div className="mt-16 w-60 md:flex md:w-80 md:mt-0 xl:mt-0">
+              {/* <SubjectOne /> */}
+              {/* <SubjectTwo /> */}
+              {/* <SubjectThree /> */}
+              <SubjectFour />
             </div>
           </div>
           <div className="flex flex-col w-[60%] md:w-[70%] ">

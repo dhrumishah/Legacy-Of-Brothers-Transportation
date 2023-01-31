@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 
-const SubjectOne = () => {
+const SubjectTwo = () => {
   return (
     <div className="flex flex-col gap-10 xl:gap-5 lg:gap-6">
       <div className="flex w-full gap-10 sm:gap-16 md:gap-10 flex-col md:flex-row xl:flex-row xl:gap-5 lg:gap-5">
@@ -62,14 +62,23 @@ const SubjectOne = () => {
               <option value="four">8+</option>
             </select>
           </div>
+          <div>
+            <input
+              type="text"
+              id="driving_record"
+              class="bg-gray-50 border md:h-8 md:text-[0.7rem] md:py-0 md:px-3 xl:text-[0.5rem] xl:py-0 xl:px-1 xl:h-6 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
+              placeholder="Driving Record*"
+              required
+            />
+          </div>
         </div>
       </div>
       <div className="w-full ">
         <textarea
-          id="message1"
+          id="message2"
           rows="8"
           class="block p-2.5 w-full text-sm md:text-[0.7rem] xl:text-[0.5rem] text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 "
-          placeholder="Write your Experience*"
+          placeholder="Write anthing we need to know about*"
           required
         ></textarea>
       </div>
@@ -78,4 +87,4 @@ const SubjectOne = () => {
   );
 };
 
-export default SubjectOne;
+export default SubjectTwo;
