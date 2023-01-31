@@ -3,14 +3,14 @@ import Button from "./Button";
 
 const SubjectOne = () => {
   return (
-    <div className="flex flex-col gap-10">
-      <div className="flex w-full gap-10 sm:gap-16 md:gap-14 md:ml-20 flex-col md:flex-row">
+    <div className="flex flex-col gap-10 ">
+      <div className="flex w-full gap-10 sm:gap-16 md:gap-10 flex-col md:flex-row">
         <div className="flex flex-col gap-10">
           <div>
             <input
               type="text"
               id="your_name"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
+              class="bg-gray-50 border md:h-8 md:text-[0.7rem] md:py-0 md:px-3 xl:text-[0.5rem] xl:py-0 xl:px-1 xl:h-6 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
               placeholder="Your Name*"
               required
             />
@@ -19,7 +19,7 @@ const SubjectOne = () => {
             <input
               type="tel"
               id="phone"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
+              class="bg-gray-50 border md:h-8 md:text-[0.7rem] md:py-0 md:px-3 xl:text-[0.5rem] xl:py-0 xl:px-1 xl:h-6 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
               placeholder="Phone Number*"
               pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
               required
@@ -28,7 +28,7 @@ const SubjectOne = () => {
           <div>
             <select
               id="preferable_freight*"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
+              class="bg-gray-50 border md:h-8 md:text-[0.7rem] md:py-0 md:px-3 xl:text-[0.5rem] xl:py-0 xl:px-1 xl:h-6 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
               placeholder="Preferable Freight*"
             >
               <option selected>Preferable Freight*</option>
@@ -45,7 +45,7 @@ const SubjectOne = () => {
             <input
               type="email"
               id="email"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
+              class="bg-gray-50 border md:h-8 md:text-[0.7rem] md:py-0 md:px-3 xl:text-[0.5rem] xl:py-0 xl:px-1 xl:h-6 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
               placeholder="Your Email*"
               required
             />
@@ -53,7 +53,7 @@ const SubjectOne = () => {
           <div>
             <select
               id="experience"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
+              class="bg-gray-50 border md:h-8 md:text-[0.7rem] md:py-0 md:px-3 xl:text-[0.5rem] xl:py-0 xl:px-1 xl:h-6 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
             >
               <option selected>Years of Experience*</option>
               <option value="one">1</option>
@@ -68,7 +68,7 @@ const SubjectOne = () => {
         <textarea
           id="message"
           rows="8"
-          class="block p-2.5 w-full text-sm md:ml-20 text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 "
+          class="block p-2.5 w-full text-sm md:text-[0.7rem] xl:text-[0.5rem] text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 "
           placeholder="Write your Experience*"
           required
         ></textarea>

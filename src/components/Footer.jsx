@@ -9,13 +9,13 @@ const Footer = () => {
       <div className="relative">
         <img
           src={image_3}
-          className="absolute bg-no-repeat max-h-screen bg-cover bg-center z-[-1] top-0"
+          className="bg-no-repeat max-h-screen bg-cover bg-center z-[-1]"
         />
         <img
           src={logo}
-          className="absolute bg-no-repeat max-h-screen bg-cover bg-center z-[-1] w-[18%] border-none top-4 left-7 sm:left-12 md:left-12 lg:left-16"
+          className="absolute bg-no-repeat max-h-screen bg-cover bg-center  w-[18%] border-none top-4 left-7 sm:left-12 md:left-12 lg:left-16"
         />
-        <div className="flex flex-row-reverse text-[0.65rem] pt-6 gap-5 mr-6 justify-items-end text-white sm:gap-3 sm:text-[0.65rem] md:gap-3 md:text-[0.6rem] lg:gap-4 lg:text-[0.6rem] xl:text-[0.55rem]">
+        <div className="absolute flex flex-row-reverse text-[0.65rem] pt-6 gap-5 mr-6 justify-items-end text-white sm:gap-3 sm:text-[0.65rem] md:gap-3 md:text-[0.6rem] lg:gap-4 lg:text-[0.6rem] xl:text-[0.55rem]">
           <div>Online Store</div>
           <Link to="/culture">
             <div>Culture</div>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="text-center text-[0.45rem] mt-5 text-white font-light sm:text-[0.6rem] sm:mt-6 md:text-[0.55rem] md:mt-5 ">
+        <div className="absolute text-center text-[0.45rem] mt-5 text-white font-light sm:text-[0.6rem] sm:mt-6 md:text-[0.55rem] md:mt-5 ">
           Copyright © Legacy of Brothers Transportation
         </div>
       </div>
