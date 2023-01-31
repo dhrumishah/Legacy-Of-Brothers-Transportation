@@ -8,13 +8,13 @@ const Contact = () => {
       <div className="flex justify-center align-middle">
         <div className="flex justify-between mt-24 gap-14 xl:w-[60%]">
           <div className="flex flex-col gap-10 w-[75%] md:w-full xl:w-[50%] ">
-            <h1 className="font-bold text-2xl sm:text-xl md:text-base ">
+            <h1 className="font-bold text-2xl sm:text-xl md:text-base xl:text-2xl ">
               Contact Us
             </h1>
             <div className="w-[70%] md:w-[50%]">
               <label
                 for="subject"
-                class="block mb-2 text-sm md:text-xs xl:text-[0.5rem] font-medium text-gray-900 dark:text-white"
+                class="block mb-2 text-sm md:text-xs xl:text-[0.7rem] font-medium text-gray-900 dark:text-white"
               >
                 Subject*
               </label>
@@ -30,15 +30,15 @@ const Contact = () => {
                 <option value="FB">Feedback</option>
               </select>
             </div>
-            <div className="mt-16 w-60 md:flex md:w-80">
+            <div className="mt-16 w-60 md:flex md:w-80 xl:mt-0">
               <SubjectOne />
             </div>
           </div>
-          <div className="flex flex-col w-[60%] md:w-[70%]">
-            <h1 className="font-bold text-2xl sm:text-xl md:text-base ">
+          <div className="flex flex-col w-[60%] md:w-[70%] ">
+            <h1 className="font-bold text-2xl sm:text-xl md:text-base xl:text-[1.1rem]">
               Mailing Address
             </h1>
-            <div className="flex flex-col mt-5 text-[0.6rem]  gap-0 font-light md:text-[0.5rem] md:leading-[0.7rem] xl:text-[0.4rem] xl:gap-0 xl:leading-[0.6rem]">
+            <div className="flex flex-col mt-5 text-[0.6rem]  gap-0 font-light md:text-[0.5rem] md:leading-[0.7rem] xl:text-[0.6rem] xl:gap-0 xl:leading-[0.6rem]">
               <span>Legacy of Brothers Transportation</span>
               <span>LLC</span>
               <span>PO BOX 417</span>
