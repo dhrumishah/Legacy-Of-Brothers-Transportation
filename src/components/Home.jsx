@@ -60,9 +60,9 @@ const Home = () => {
       </div>
       <div class="thirdcontainer services flex flex-col items-center pt-6 pb-6">
         <h1 class="text-center font-extrabold text-4xl mb-4">Services</h1>
-        <div class="services-type flex flex-col justify-center items-center mx-3 gap-8 md:flex-row md:gap-6 flex-wrap">
+        <div class="services-type flex flex-col justify-center items-center mx-10 gap-8 md:flex-row md:gap-6 flex-wrap">
           <Link to="/aboutus">
-            <div class="box w-[12rem] mt-3 p-2 text-center shadow-md md:shadow-xl">
+            <div class="box w-[10rem] mt-3 p-2 text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
                 Reefer Freight
               </h1>
@@ -72,7 +72,7 @@ const Home = () => {
             </div>
           </Link>
           <Link to="/aboutus">
-            <div class="box w-[12rem] p-2 text-center shadow-md md:shadow-xl">
+            <div class="box w-[10rem] p-2 text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">Dry Van</h1>
               <p class="mt-4 mb-4 text-[.6rem] leading-3 p-2">
                 Transporting non-temperature sensitive goods
@@ -80,7 +80,7 @@ const Home = () => {
             </div>
           </Link>
           <Link to="/aboutus">
-            <div class="box w-[12rem] p-2 text-center shadow-md md:shadow-xl">
+            <div class="box w-[10rem] p-2 text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
                 Expedited Freight
               </h1>
