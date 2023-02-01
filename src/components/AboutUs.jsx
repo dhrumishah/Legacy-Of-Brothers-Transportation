@@ -21,12 +21,12 @@ const AboutUs = () => {
                 src={comma}
                 className="absolute w-8 top-0 left-0 translate-x-[-50%] translate-y-[-50%] sm:translate-x-[-30%] md:translate-x-[-70%] sm:translate-y-[-50%] xl:translate-x-[-40%]"
               />
-              <div>
-                <h4 className="text-[0.6rem] text-center   font-extrabold leading-3 lg:text-[0.7rem] xl:text-[0.6rem]">
+              <div className="w-[95%]">
+                <h4 className="text-[0.6rem] text-center   font-extrabold leading-3 lg:text-[0.7rem] xl:text-[0.65rem]">
                   Here at Legacy of Brothers Transportation our mission is not
                   to
                 </h4>
-                <h4 className="text-[0.6rem] text-center  font-extrabold lg:text-[0.7rem] xl:text-[0.6rem]">
+                <h4 className="text-[0.6rem] text-center  font-extrabold lg:text-[0.7rem] xl:text-[0.63rem]">
                   just provide timely & safe delivery but superior customer
                   service.
                 </h4>
