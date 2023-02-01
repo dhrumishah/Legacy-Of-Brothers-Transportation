@@ -14,7 +14,7 @@ const AboutUs = () => {
           src={image_1}
           className="bg-no-repeat max-h-screen bg-cover bg-center w-full z-[-1]"
         />
-        <div className="absolute top-[35%] left-[10%] mx-auto w-[60%] text-center">
+        <div className="absolute top-[35%] left-[10%] mx-auto w-[60%] xl:w-[62%] text-center">
           <img
             src={comma}
             className="absolute w-8 top-0 left-0 translate-x-[-50%] translate-y-[-50%] sm:translate-x-[-30%] md:translate-x-[-70%] sm:translate-y-[-50%] "
