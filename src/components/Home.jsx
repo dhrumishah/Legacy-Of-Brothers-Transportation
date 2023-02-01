@@ -32,12 +32,12 @@ const Home = () => {
       </div>
       <div class="secondcontainer relative">
         <img src={image_2} alt="secondcontainer_person" class="brightness-90" />
-        <div class="absolute top-[20%] right-[15%] h-40 text-center bg-[#e1e1e166] text-black rounded-md  flex flex-col justify-evenly p-3">
-          <h1 class="italic font-extrabold text-[0.9rem] leading-3">
+        <div class="absolute top-[20%] right-[15%] h-40 text-center bg-[#e1e1e166] text-black rounded-md  flex flex-col justify-evenly p-6">
+          <h1 class="italic font-extrabold text-[0.95rem] leading-3">
             Culture is the foundation <br />
             of our success
           </h1>
-          <p class="text-[0.5rem] leading-[0.6rem] font-semibold">
+          <p class="text-[0.55rem] leading-[0.6rem] font-semibold">
             Our drivers are the backbone of our company <br />
             and we are committed to providing them with <br />
             the best working conditions possible!
@@ -45,13 +45,13 @@ const Home = () => {
           <div class="flex flex-row gap-4 items-center justify-center">
             <button
               type="button"
-              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem]  px-4 py-1 xl:text-[.4rem]"
+              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem]  px-4 py-1 xl:text-[.45rem]"
             >
               LEARN MORE
             </button>
             <button
               type="button"
-              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] px-3 py-1 xl:text-[.4rem]"
+              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] px-3 py-1 xl:text-[.45rem]"
             >
               BECOME A DRIVER
             </button>
