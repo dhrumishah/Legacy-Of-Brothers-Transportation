@@ -32,7 +32,7 @@ const Home = () => {
       </div>
       <div class="secondcontainer relative">
         <img src={image_2} alt="secondcontainer_person" class="brightness-90" />
-        <div class="absolute top-[20%] right-[15%] h-44 text-center bg-[#e1e1e166] text-black rounded-md  flex flex-col justify-evenly px-6 py-3">
+        <div class="absolute top-[16%] right-[15%] h-48 text-center bg-[#e1e1e166] text-black rounded-md  flex flex-col justify-evenly px-7 py-3">
           <h1 class="italic font-extrabold text-[0.95rem] leading-3">
             Culture is the foundation <br />
             of our success
