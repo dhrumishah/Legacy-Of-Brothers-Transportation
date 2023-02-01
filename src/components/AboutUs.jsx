@@ -17,7 +17,7 @@ const AboutUs = () => {
         <div className="absolute top-[55%] left-[37%] translate-x-[-50%] translate-y-[-50%] w-[60%] text-center">
           <img
             src={comma}
-            className="absolute w-8 top-0 left-0 translate-x-[-80%] translate-y-[-50%]"
+            className="absolute w-8 top-0 left-0 translate-x-[-80%] translate-y-[-50%] sm:translate-x-[-30%] md:translate-x-[-70%] sm:translate-y-[-50%] "
           />
 
           <h4 className="text-[0.6rem] font-extrabold leading-3 lg:text-[0.75rem] xl:text-[0.65rem]">
@@ -28,7 +28,7 @@ const AboutUs = () => {
           </h4>
           <img
             src={comma}
-            className="absolute w-8 bottom-[45%] -right-[9%] translate-x-[-20%] translate-y-[-50%]"
+            className="absolute w-8 bottom-[45%] -right-[9%] translate-x-[-20%] translate-y-[-50%] sm:translate-x-[-30%] md:translate-x-[-30%] sm:translate-y-[-50%] "
           />
           <p className="text-[0.5rem] mt-4 leading-3 font-medium px-3">
             With dedicated drivers fostering amazing teamwork; constantly
