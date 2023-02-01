@@ -17,18 +17,18 @@ const AboutUs = () => {
         <div className="absolute top-[35%] left-[10%] mx-auto w-[60%] xl:w-[62%] text-center">
           <img
             src={comma}
-            className="absolute w-8 top-0 left-0 translate-x-[-50%] translate-y-[-50%] sm:translate-x-[-30%] md:translate-x-[-70%] sm:translate-y-[-50%] "
+            className="absolute w-8 top-0 left-0 translate-x-[-50%] translate-y-[-50%] sm:translate-x-[-30%] md:translate-x-[-70%] sm:translate-y-[-50%] xl:translate-x-[-40%]"
           />
-          <div className="">
-            <h4 className="text-[0.6rem] font-extrabold leading-3 lg:text-[0.75rem] xl:text-[0.65rem]">
+          <div className="w-[95%] mx-auto">
+            <h4 className="text-[0.6rem] font-extrabold leading-3 lg:text-[0.7rem] xl:text-[0.6rem]">
               Here at Legacy of Brothers Transportation our mission is not to
             </h4>
-            <h4 className="text-[0.6rem] font-extrabold lg:text-[0.75rem] xl:text-[0.65rem]">
+            <h4 className="text-[0.6rem] font-extrabold lg:text-[0.7rem] xl:text-[0.6rem]">
               just provide timely & safe delivery but superior customer service.
             </h4>
             <img
               src={comma}
-              className="absolute w-8 bottom-[45%] -right-[9%] translate-x-[-35%] translate-y-[-50%] sm:translate-x-[-30%] md:translate-x-[-30%] sm:translate-y-[-50%] "
+              className="absolute w-8 bottom-[45%] -right-[9%] translate-x-[-35%] translate-y-[-50%] sm:translate-x-[-30%] md:translate-x-[-30%] sm:translate-y-[-50%] xl:translate-x-[-50%]"
             />
             <p className="text-[0.5rem] mt-4 leading-3 font-medium px-3">
               With dedicated drivers fostering amazing teamwork; constantly
