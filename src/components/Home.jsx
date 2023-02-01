@@ -90,7 +90,7 @@ const Home = () => {
             </div>
           </Link>
           <Link to="/aboutus">
-            <div class="box w-[10rem] p-2 text-center shadow-md md:shadow-xl">
+            <div class="box w-[12rem] p-4 text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] -mt-1 mb-4">
                 RV Hauling
               </h1>
@@ -100,7 +100,7 @@ const Home = () => {
             </div>
           </Link>
           <Link to="/aboutus">
-            <div class="box w-[10rem]  text-center shadow-md md:shadow-xl">
+            <div class="box w-[12rem] p-1  text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
                 Pilot Car
               </h1>
