@@ -1,12 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../assets/logo.png";
 import rectangle from "../assets/homeRectangle.png";
 import triangle from "../assets/homeTriangle.png";
 import truck from "../assets/truck.png";
 
 const Nav2 = () => {
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBackground = () => {
+    // console.log(window.scrollY);
+    if (window.scrollY >= 6) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  useEffect(() => {
+    changeBackground();
+    // adding the event when scroll change background
+    window.addEventListener("scroll", changeBackground);
+  });
+
   return (
-    <nav className="fixed w-full z-[2]">
+    <nav
+      className={
+        navbar ? "fixed w-full z-[2] bg-black text-white" : "fixed w-full z-[2]"
+      }
+    >
       <div className="flex justify-between">
         <a href="/" className="">
           <img src={logo} className="w-12" />
