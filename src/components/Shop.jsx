@@ -7,7 +7,7 @@ import cap from "../assets/caps.png";
 import hat from "../assets/hats.png";
 
 const Shop = () => {
-  const [color, setColor] = useState("/src/assets/redT.png");
+  const [color, setColor] = useState("");
   return (
     <>
       <div className="bg-[#F8F8F8]">
@@ -16,7 +16,7 @@ const Shop = () => {
         </h1>
         <div className="flex flex-col mx-auto pt-14 pb-10 text-3xl gap-10 text-center sm:flex-row sm:pb-72 sm:justify-center sm:gap-1 md:text-[0.8rem] lg:text-[0.9rem] xl:text-[0.8rem]">
           <div className="w-1/2 sm:w-1/5 mx-auto">
-            <img src={color} alt="" />
+            <img src={color ? color : "/src/assets/redT.png"} alt="" />
             <div className="flex justify-center gap-5 sm:gap-2 py-2">
               <span
                 onClick={() => setColor("/src/assets/yellowT.png")}
