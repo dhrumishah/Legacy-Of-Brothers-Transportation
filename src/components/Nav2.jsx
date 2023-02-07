@@ -3,6 +3,7 @@ import logo from "../assets/logo.png";
 import rectangle from "../assets/homeRectangle.png";
 import triangle from "../assets/homeTriangle.png";
 import truck from "../assets/truck.png";
+import { Link } from "react-router-dom";
 
 const Nav2 = () => {
   const [navbar, setNavbar] = useState(false);
@@ -47,14 +48,16 @@ const Nav2 = () => {
               <span className="">Contact</span>
             </a>
           </div>
-          <div className="flex relative">
-            <img src={triangle} className="w-4" />
-            <img src={rectangle} className="w-16" />
-            <img src={truck} className="absolute w-3 top-[20%] left-[20%]" />
-            <span className="absolute text-[0.55rem] top-[25%] left-[40%] text-[#F8DA78] font-semibold italic">
-              DRIVERS
-            </span>
-          </div>
+          <Link to="/contact">
+            <div className="flex relative cursor-pointer">
+              <img src={triangle} className="w-4" />
+              <img src={rectangle} className="w-16" />
+              <img src={truck} className="absolute w-3 top-[20%] left-[20%]" />
+              <span className="absolute text-[0.55rem] top-[25%] left-[40%] text-[#F8DA78] font-semibold italic">
+                DRIVERS
+              </span>
+            </div>
+          </Link>
         </div>
       </div>
     </nav>
