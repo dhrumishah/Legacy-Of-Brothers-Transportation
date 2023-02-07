@@ -22,12 +22,16 @@ const Home = () => {
           <h2 class="text-xl md:text-[2.5xl] xl:text-[2xl] mb-1 mt-2 text-white font-extrabold italic">
             Join Legacy of Brothers
           </h2>
-          <button class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] xl:text-[.4rem] px-4 py-1 mb-2 mt-4 min-w-[4rem]">
-            LEARN MORE
-          </button>
-          <button class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] xl:text-[.4rem] px-6 py-1 mb-2 min-w-[4rem]">
-            JOIN US
-          </button>
+          <Link to="/aboutus">
+            <button class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] xl:text-[.4rem] px-4 py-1 mb-1 mt-3 min-w-[4rem]">
+              LEARN MORE
+            </button>
+          </Link>
+          <Link to="/contact">
+            <button class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] xl:text-[.4rem] px-6 py-1 mb-2 min-w-[4rem]">
+              JOIN US
+            </button>
+          </Link>
         </div>
       </div>
       <div class="secondcontainer relative">
@@ -43,18 +47,22 @@ const Home = () => {
             the best working conditions possible!
           </p>
           <div class="flex flex-row gap-4 items-center justify-center">
-            <button
-              type="button"
-              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem]  px-4 py-1 xl:text-[.45rem]"
-            >
-              LEARN MORE
-            </button>
-            <button
-              type="button"
-              class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] px-3 py-1 xl:text-[.45rem]"
-            >
-              BECOME A DRIVER
-            </button>
+            <Link to="/culture">
+              <button
+                type="button"
+                class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem]  px-4 py-1 xl:text-[.45rem]"
+              >
+                LEARN MORE
+              </button>
+            </Link>
+            <Link to="/contact">
+              <button
+                type="button"
+                class="bg-[#717171] hover:bg-gray-600 text-[#F8DA78] font-bold rounded-lg border-[1px] border-[#F8DA78] text-[.5rem] px-3 py-1 xl:text-[.45rem]"
+              >
+                BECOME A DRIVER
+              </button>
+            </Link>
           </div>
         </div>
       </div>

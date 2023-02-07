@@ -6,7 +6,7 @@ import Button from "./components/Button";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
-import Footer2 from "./components/Footer2";
+// import Footer2 from "./components/Footer2";
 import Nav2 from "./components/Nav2";
 import Shop from "./components/Shop";
 
