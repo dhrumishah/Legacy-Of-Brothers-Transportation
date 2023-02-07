@@ -20,7 +20,7 @@ const Shop = () => {
         <h1 className="text-center pt-14 text-4xl font-bold sm:text-3xl md:text-2xl xl:text-2xl">
           Online Store
         </h1>
-        <div className="flex flex-col mx-auto pt-14 pb-10 text-3xl gap-10 text-center sm:flex-row sm:pb-72 sm:justify-center sm:gap-1 md:text-[0.8rem] lg:text-[0.9rem] xl:text-[0.8rem]">
+        <div className="flex flex-col mx-auto pt-10 pb-10 text-3xl gap-10 text-center sm:flex-row sm:pb-72 sm:justify-center sm:gap-1 md:text-[0.8rem] lg:text-[0.9rem] xl:text-[0.8rem]">
           <div className="w-1/2 sm:w-1/5 mx-auto">
             {color === "red" && redT}
             {color === "white" && whiteT}
@@ -50,13 +50,13 @@ const Shop = () => {
           </div>
           <div className="w-1/2 sm:w-1/5 mx-auto">
             <img src={cap} />
-            <div className="py-2">
+            <div className="py-6">
               <span>LOBT Trucker Cap</span>
             </div>
           </div>
           <div className="w-1/2 sm:w-1/5 mx-auto">
             <img src={hat} />
-            <div className="py-2">
+            <div className="py-6">
               <span>LOBT Beanie Hat</span>
             </div>
           </div>
