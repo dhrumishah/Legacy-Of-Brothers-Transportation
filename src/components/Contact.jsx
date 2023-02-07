@@ -8,8 +8,6 @@ import SubjectTwo from "./SubjectTwo";
 const Contact = () => {
   const [contactOption, setContactOption] = useState("FO");
 
-  useEffect(() => {}, [contactOption]);
-
   return (
     <div className="bg-[#F8F8F8]">
       <div className="flex justify-center align-middle">
