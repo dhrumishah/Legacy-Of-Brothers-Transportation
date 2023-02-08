@@ -50,7 +50,7 @@ const Footer = () => {
               className="bg-no-repeat max-h-screen bg-cover bg-center ml-3 w-[15%] sm:w-[20%] border-none"
             />
           </div>
-          <div className=" text-center text-[0.8rem] ml-16  text-white font-light sm:text-[0.7rem]  md:text-[0.75rem] md:font-[100] xl:text-[0.65rem] xl:font-[50] ">
+          <div className=" text-center text-[0.6rem] ml-16  text-white font-light sm:text-[0.6rem]  md:text-[0.65rem] md:font-[100] xl:text-[0.5rem] xl:font-[50] ">
             Copyright © Legacy of Brothers Transportation
           </div>
         </div>

@@ -17,11 +17,11 @@ const Shop = () => {
   return (
     <>
       <div className="bg-[#F8F8F8]">
-        <h1 className="text-center pt-14 text-4xl font-bold sm:text-3xl md:text-2xl xl:text-2xl">
+        <h1 className="text-center pt-14 text-4xl font-bold sm:text-2xl md:text-xl xl:text-xl">
           Online Store
         </h1>
-        <div className="flex flex-col mx-auto pt-10 pb-10 text-3xl gap-10 text-center sm:flex-row sm:pb-72 sm:justify-center sm:gap-1 md:text-[0.8rem] lg:text-[0.9rem] xl:text-[0.8rem]">
-          <div className="w-1/2 sm:w-1/5 mx-auto">
+        <div className="flex flex-col  pt-10 pb-10 text-3xl gap-10 text-center sm:flex-row sm:text-xs sm:pb-72 sm:justify-center sm:gap-1 md:text-[0.6rem] lg:text-[0.75rem] xl:text-[0.65rem]">
+          <div className="w-1/2 sm:w-[15%] mx-auto">
             {color === "red" && redT}
             {color === "white" && whiteT}
             {color === "yellow" && yellowT}
@@ -48,13 +48,13 @@ const Shop = () => {
               <span>LOBT Shirt</span>
             </div>
           </div>
-          <div className="w-1/2 sm:w-1/5 mx-auto">
+          <div className="w-1/2 sm:w-[15%] mx-auto sm:-mx-10 md:-mx-12 xl:-mx-20">
             <img src={cap} />
             <div className="py-6">
               <span>LOBT Trucker Cap</span>
             </div>
           </div>
-          <div className="w-1/2 sm:w-1/5 mx-auto">
+          <div className="w-1/2 sm:w-[15%] mx-auto">
             <img src={hat} />
             <div className="py-6">
               <span>LOBT Beanie Hat</span>

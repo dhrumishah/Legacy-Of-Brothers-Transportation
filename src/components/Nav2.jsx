@@ -34,7 +34,10 @@ const Nav2 = () => {
           <img src={logo} className="w-12" />
         </a>
         <div className="flex">
-          <div className="m-auto flex gap-4 text-xs font-semibold italic">
+          <div className="m-auto flex gap-4 text-[0.6rem] font-semibold italic">
+            <a href="/home" className="">
+              <span className="">Home</span>
+            </a>
             <a href="/aboutus" className="">
               <span className="">About Us</span>
             </a>
