@@ -19,11 +19,11 @@ const AboutUs = () => {
             <div className="flex">
               <img src={comma} className="h-5 w-5 ml-2 -mt-1" />
               <div className="w-[90%]">
-                <h4 className="text-[0.6rem] text-center   font-extrabold leading-3 lg:text-[0.7rem] xl:text-[0.69rem]">
+                <h4 className="text-[0.6rem] text-center   font-extrabold leading-3 lg:text-[0.7rem] xl:text-[0.7rem]">
                   Here at Legacy of Brothers Transportation our mission is not
                   to
                 </h4>
-                <h4 className="text-[0.6rem] text-center  font-extrabold lg:text-[0.7rem] xl:text-[0.67rem]">
+                <h4 className="text-[0.6rem] text-center  font-extrabold lg:text-[0.7rem] xl:text-[0.68rem]">
                   just provide timely & safe delivery but superior customer
                   service.
                 </h4>
