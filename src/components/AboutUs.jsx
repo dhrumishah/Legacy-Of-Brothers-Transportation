@@ -14,23 +14,23 @@ const AboutUs = () => {
           src={image_1}
           className="bg-no-repeat max-h-screen bg-cover bg-center w-full z-[-1]"
         />
-        <div className="absolute top-[35%] left-[5%] mx-auto w-[60%] xl:w-[70%] ">
+        <div className="absolute top-[35%] left-[5%] mx-auto w-[60%] xl:w-[68%] ">
           <div className="w-[100%] mx-auto">
             <div className="flex">
               <img src={comma} className="h-5 w-5 ml-2 -mt-1" />
-              <div className="">
-                <h4 className="text-[0.6rem] text-center   font-extrabold leading-3 lg:text-[0.7rem] xl:text-[0.65rem]">
+              <div className="w-[90%]">
+                <h4 className="text-[0.6rem] text-center   font-extrabold leading-3 lg:text-[0.7rem] xl:text-[0.69rem]">
                   Here at Legacy of Brothers Transportation our mission is not
                   to
                 </h4>
-                <h4 className="text-[0.6rem] text-center  font-extrabold lg:text-[0.7rem] xl:text-[0.65rem]">
+                <h4 className="text-[0.6rem] text-center  font-extrabold lg:text-[0.7rem] xl:text-[0.67rem]">
                   just provide timely & safe delivery but superior customer
                   service.
                 </h4>
               </div>
               <img src={comma} className="h-4 w-4  mt-auto " />
             </div>
-            <p className="text-[0.5rem] w-[80%] ml-4 mt-4 text-center leading-3 font-medium mx-auto">
+            <p className="text-[0.5rem] w-[90%] ml-4 mt-4 text-center leading-3 font-medium mx-auto">
               With dedicated drivers fostering amazing teamwork; constantly
               challenging ourselves to build new standards of quality and
               performance through leadership, respect, transparency and
