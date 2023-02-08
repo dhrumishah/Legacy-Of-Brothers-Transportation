@@ -45,7 +45,7 @@ const AboutUs = () => {
         <div className="p-5 bg-[#686868] text-4xl font-bold text-[#F8DA78] md:text-xl">
           Our Services
         </div>
-        <div className="flex flex-col gap-2 py-12 px-28 mt-4 w-auto m-auto lg:px-36 xl:px-44">
+        <div className="flex flex-col gap-2 py-12 px-28 mt-4 w-auto m-auto lg:px-36 xl:px-48 2xl:px-52">
           <p className="xl:text-[0.5rem]">
             "Our company specializes in providing both reefer and dry van
             transportation services.
@@ -100,25 +100,25 @@ const AboutUs = () => {
         </div>
         <div className="flex bg-[#F8F8F8 justify-evenly gap-10 m w-2/3 align-middle m-auto py-12 ">
           <Link to="/contact">
-            <div className="hover:opacity-80 hover:-translate-y-1 transition ease-in-out delay-100 hover:scale-110">
-              <img src={image_21} className="max-w-full" />
-              <div className="text-center font-semibold text-xs bg-[#757575] text-white rounded-sm p-1 -my-1">
+            <div className="relative hover:opacity-80 hover:-translate-y-1 transition ease-in-out delay-100 hover:scale-110">
+              <img src={image_21} className="max-w-full rounded-b-none" />
+              <div className="absolute w-full text-center font-semibold text-xs bg-[#757575] rounded-t-none text-white rounded-sm p-1 -my-1 z-10">
                 Future Customer
               </div>
             </div>
           </Link>
           <Link to="/contact">
-            <div className="hover:opacity-80 hover:-translate-y-1 transition ease-in-out delay-100 hover:scale-110">
-              <img src={image_22} className="max-w-full" />
-              <div className="text-center font-semibold text-xs bg-[#757575] text-white rounded-sm p-1 -my-1">
+            <div className="relative hover:opacity-80 hover:-translate-y-1 transition ease-in-out delay-100 hover:scale-110">
+              <img src={image_22} className="max-w-full rounded-b-none" />
+              <div className="absolute w-full text-center font-semibold text-xs bg-[#757575] rounded-t-none text-white rounded-sm p-1 -my-1">
                 Future Operator
               </div>
             </div>
           </Link>
           <Link to="/contact">
-            <div className="hover:opacity-80 hover:-translate-y-1 transition ease-in-out delay-100 hover:scale-110">
-              <img src={image_23} className="w-full" />
-              <div className="text-center font-semibold text-[0.6rem] bg-[#757575] text-white rounded-sm py-1 -my-1">
+            <div className="relative hover:opacity-80 hover:-translate-y-1 transition ease-in-out delay-100 hover:scale-110">
+              <img src={image_23} className="w-full rounded-b-none" />
+              <div className="absolute w-full text-center font-semibold text-[0.6rem] bg-[#757575] rounded-t-none text-white rounded-sm py-1 -my-1">
                 Future Owner Operator
               </div>
             </div>
