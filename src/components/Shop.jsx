@@ -5,6 +5,7 @@ import yellow from "../assets/yellowT.png";
 import black from "../assets/blackT.png";
 import cap from "../assets/caps.png";
 import hat from "../assets/hats.png";
+import SoldOutButton from "./SoldOutButton";
 
 const Shop = () => {
   const [color, setColor] = useState("red");
@@ -47,17 +48,26 @@ const Shop = () => {
             <div className="py-1 sm:-my-2">
               <span>LOBT Shirt</span>
             </div>
+            <div className="mx-auto w-1/2 sm:mt-4 sm:w-24">
+              <SoldOutButton />
+            </div>
           </div>
           <div className="w-1/2 sm:w-[15%] mx-auto sm:-mx-10 md:-mx-12 xl:-mx-20">
             <img src={cap} />
             <div className="py-6">
               <span>LOBT Trucker Cap</span>
             </div>
+            <div className="mx-auto w-1/2 sm:-mt-2 sm:w-24">
+              <SoldOutButton />
+            </div>
           </div>
           <div className="w-1/2 sm:w-[15%] mx-auto">
             <img src={hat} />
             <div className="py-6">
               <span>LOBT Beanie Hat</span>
+            </div>
+            <div className="mx-auto w-1/2 sm:-mt-2 sm:w-24">
+              <SoldOutButton />
             </div>
           </div>
         </div>
