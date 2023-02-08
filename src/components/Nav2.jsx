@@ -35,7 +35,7 @@ const Nav2 = () => {
         </a>
         <div className="flex">
           <div className="m-auto flex gap-4 text-[0.6rem] font-semibold italic">
-            <a href="/home" className="">
+            <a href="/" className="">
               <span className="">Home</span>
             </a>
             <a href="/aboutus" className="">
