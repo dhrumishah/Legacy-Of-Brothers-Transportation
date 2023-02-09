@@ -98,7 +98,7 @@ const AboutUs = () => {
         <div className="text-center text-[#737373] text-4xl font-bold p-7">
           Join the Brotherhood
         </div>
-        <div className="flex bg-[#F8F8F8 justify-evenly gap-10 m w-2/3 align-middle m-auto py-12 ">
+        <div className="flex bg-[#F8F8F8 justify-evenly gap-10 mb-16 w-2/3 align-middle mx-auto py-12 ">
           <Link to="/contact">
             <div className="relative hover:opacity-80 hover:-translate-y-1 transition ease-in-out delay-100 hover:scale-110">
               <img src={image_21} className="max-w-full rounded-b-none" />
