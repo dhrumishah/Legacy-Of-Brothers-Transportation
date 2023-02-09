@@ -100,7 +100,7 @@ const AboutUs = () => {
           Join the Brotherhood
         </div>
         <div className="flex bg-[#F8F8F8 justify-evenly gap-10 mb-16 w-2/3 align-middle mx-auto py-12 ">
-          <Link to="/contact">
+          <Link to="/futureCustomer">
             <div className="relative hover:opacity-80 hover:-translate-y-1 transition ease-in-out delay-100 hover:scale-110">
               <img src={image_21} className="max-w-full rounded-b-none" />
               <div className="absolute w-full text-center font-semibold text-xs bg-[#757575] rounded-t-none text-white rounded-sm p-1 -my-1 z-10">
@@ -108,7 +108,7 @@ const AboutUs = () => {
               </div>
             </div>
           </Link>
-          <Link to="/contact">
+          <Link to="/futureOperator">
             <div className="relative hover:opacity-80 hover:-translate-y-1 transition ease-in-out delay-100 hover:scale-110">
               <img src={image_22} className="max-w-full rounded-b-none" />
               <div className="absolute w-full text-center font-semibold text-xs bg-[#757575] rounded-t-none text-white rounded-sm p-1 -my-1">
@@ -116,7 +116,7 @@ const AboutUs = () => {
               </div>
             </div>
           </Link>
-          <Link to="/contact">
+          <Link to="/futureOwnerOperator">
             <div className="relative hover:opacity-80 hover:-translate-y-1 transition ease-in-out delay-100 hover:scale-110">
               <img src={image_23} className="w-full rounded-b-none" />
               <div className="absolute w-full text-center font-semibold text-[0.6rem] bg-[#757575] rounded-t-none text-white rounded-sm py-1 -my-1">

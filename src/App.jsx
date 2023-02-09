@@ -7,6 +7,9 @@ import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
 import Nav2 from "./components/Nav2";
 import Shop from "./components/Shop";
+import FutureCustomer from "./components/FutureCustomer";
+import FutureOperator from "./components/FutureOperator";
+import FutureOwnerOperator from "./components/FutureOwnerOperator";
 
 function App() {
   return (
@@ -20,6 +23,13 @@ function App() {
             <Route exact path="/culture" element={<Culture />} />
             <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/shop" element={<Shop />} />
+            <Route exact path="/futureCustomer" element={<FutureCustomer />} />
+            <Route exact path="/futureOperator" element={<FutureOperator />} />
+            <Route
+              exact
+              path="/futureOwnerOperator"
+              element={<FutureOwnerOperator />}
+            />
           </Routes>
           <Footer />
         </div>
