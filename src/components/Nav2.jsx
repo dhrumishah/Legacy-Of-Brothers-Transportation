@@ -31,9 +31,14 @@ const Nav2 = () => {
       }
     >
       <div className="sm:hidden">
-        <div className="flex justify-center">
-          <img className="w-16 mx-auto" src={logo} />
-          <img className="w-16 mx-auto" src={logo} />
+        <div className="flex relative justify-center">
+          <img src={rectangle} className="absolute left-0 w-1/2 -z-[1]" />
+          <img
+            src={triangle}
+            className="absolute rotate-180 w-7 right-[45.9%] -z-[1]"
+          />
+          <img className=" w-20 mx-auto z-10" src={logo} />
+          <img className="w-20 mx-auto" src={logo} />
         </div>
         <div className="relative flex justify-center bg-[#F8DA78]">
           <div className="mt-2 ">
@@ -73,7 +78,7 @@ const Nav2 = () => {
                 <li>
                   <a
                     href="/"
-                    class="block py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-600"
+                    class="block py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-600  hover:text-white"
                     aria-current="page"
                   >
                     Home
@@ -82,7 +87,7 @@ const Nav2 = () => {
                 <li>
                   <a
                     href="/aboutus"
-                    class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600 "
+                    class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600  hover:text-white"
                   >
                     About Us
                   </a>
@@ -90,7 +95,7 @@ const Nav2 = () => {
                 <li>
                   <a
                     href="/contact"
-                    class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600"
+                    class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600  hover:text-white"
                   >
                     Culture
                   </a>
@@ -98,7 +103,7 @@ const Nav2 = () => {
                 <li>
                   <a
                     href="/shop"
-                    class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600 "
+                    class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600  hover:text-white"
                   >
                     Shop
                   </a>
@@ -106,7 +111,7 @@ const Nav2 = () => {
                 <li>
                   <a
                     href="#"
-                    class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600 "
+                    class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600  hover:text-white"
                   >
                     Contact
                   </a>

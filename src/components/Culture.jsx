@@ -5,6 +5,7 @@ import image_6 from "../assets/culture_2.png";
 const Culture = () => {
   return (
     <>
+      <div className="py-8 sm:hidden"></div>
       <div className="relative">
         <img
           src={image_5}

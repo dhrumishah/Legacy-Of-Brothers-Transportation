@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 const AboutUs = () => {
   return (
     <>
+      <div className="py-8 sm:hidden"></div>
       <div className="relative bg-[#F8F8F8">
         <img
           src={image_1}

@@ -17,6 +17,7 @@ const Shop = () => {
 
   return (
     <>
+      <div className="py-8 sm:hidden"></div>
       <div className="bg-[#F8F8F8]">
         <h1 className="text-center pt-14 text-4xl font-bold sm:text-2xl md:text-xl xl:text-xl">
           Online Store

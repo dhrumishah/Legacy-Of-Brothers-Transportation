@@ -10,6 +10,7 @@ const Contact = () => {
 
   return (
     <div className="bg-[#F8F8F8]">
+      <div className="py-8 sm:hidden"></div>
       <div className="flex justify-center align-middle">
         <div className="flex justify-between mt-24 gap-14 xl:w-[60%] xl:mt-14">
           <div className="flex flex-col gap-10 w-[75%] md:w-full xl:w-[50%]">

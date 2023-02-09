@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
+      <div className="py-8 sm:hidden"></div>
       <div class="firstcontainer relative">
         <img src={image_1} alt="firstcontainer_truck" class="brightness-90" />
         <div class="imagetextcontainer flex flex-col items-center justify-center w-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
