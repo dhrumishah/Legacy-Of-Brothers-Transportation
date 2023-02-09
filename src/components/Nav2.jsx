@@ -31,7 +31,10 @@ const Nav2 = () => {
       }
     >
       <div className="sm:hidden">
-        <div>nfeklak</div>
+        <div className="flex justify-center">
+          <img className="w-16 mx-auto" src={logo} />
+          <img className="w-16 mx-auto" src={logo} />
+        </div>
         <div className="relative flex justify-center bg-[#F8DA78]">
           <div className="mt-2 ">
             <span className=" text-[0.95rem]  text-[grey] font-extrabold italic">
