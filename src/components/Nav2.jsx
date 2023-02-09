@@ -36,16 +36,15 @@ const Nav2 = () => {
       }
     >
       <div className="sm:hidden">
-        <div className="flex relative justify-center">
-          <img src={rectangle2} className="absolute left-0 w-1/2 h-12 -z-[1]" />
-          <img
-            src={triangle2}
-            className="absolute w-7 h-12 right-[45.8%] z-[1]"
-          />
-          <img className=" w-20 mx-auto z-10" src={logo} />
-          <div className="flex ml-[8rem]">
-            <img src={truck} className="abs w-7 h-7 my-auto" />
-            <span className=" text-[0.9rem] mr-28 px-2 my-auto text-[grey] font-semibold italic">
+        <div className="flex">
+          <div className="relative flex w-1/2">
+            <img src={rectangle2} className=" w-[200%] h-12 -z-[1]" />
+            <img src={triangle2} className=" w-7 h-12 right-[45.8%] z-[1]" />
+            <img className="absolute left-1/2 w-20 mx-auto z-10" src={logo} />
+          </div>
+          <div className="flex w-1/2 justify-center">
+            <img src={truck} className="w-7 h-7 my-auto" />
+            <span className=" text-[0.9rem] px-2 my-auto text-[grey] font-semibold italic">
               DRIVERS
             </span>
           </div>
