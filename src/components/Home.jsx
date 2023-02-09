@@ -5,6 +5,11 @@ import image_3 from "../assets/bg_3.png";
 import rectangle from "../assets/homeRectangle.png";
 import triangle from "../assets/homeTriangle.png";
 import truck from "../assets/truck.png";
+import reefer from "../assets/reeferFreight.jpg";
+import dryVan from "../assets/dryVan.jpg";
+import expFre from "../assets/expFre.jpg";
+import pilotCar from "../assets/pilotCar.jpg";
+import rvHauling from "../assets/rvHauling.jpg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -70,7 +75,7 @@ const Home = () => {
       <div class="thirdcontainer services flex flex-col items-center pt-6 pb-6">
         <h1 class="text-center font-extrabold text-4xl mb-4">Services</h1>
         <div class="services-type flex justify-center items-center mx-6 gap-8 md:flex-row md:gap-6 flex-wrap">
-          <Link to="/aboutus">
+          <Link to="/futureCustomer">
             <div class="box w-[13rem] mt-3 p-2 text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
                 Reefer Freight
@@ -78,17 +83,19 @@ const Home = () => {
               <p class="mt-4 mb-4 text-[.6rem] leading-3 p-2">
                 Transporting temperature-sensitive goods
               </p>
+              <img className="w-20 mx-auto" src={reefer} />
             </div>
           </Link>
-          <Link to="/aboutus">
+          <Link to="/futureCustomer">
             <div class="box w-[13rem] p-2 text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">Dry Van</h1>
-              <p class="mt-4 mb-4 text-[.6rem] leading-3 p-2">
+              <p class="mt-4 mb-4 text-[.6rem] leading-3 p-3">
                 Transporting non-temperature sensitive goods
               </p>
+              <img className="w-20 mx-auto" src={dryVan} />
             </div>
           </Link>
-          <Link to="/aboutus">
+          <Link to="/futureCustomer">
             <div class="box w-[13rem] p-2 text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
                 Expedited Freight
@@ -96,27 +103,30 @@ const Home = () => {
               <p class="mt-4 mb-4 text-[.6rem] leading-3 p-2">
                 Box truck deliver for super fast delivery
               </p>
+              <img className="w-20 mx-auto" src={expFre} />
             </div>
           </Link>
-          <Link to="/aboutus">
+          <Link to="/futureCustomer">
             <div class="box w-[13rem] sm:w-[13rem] p-5 text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] -mt-1 mb-4">
                 RV Hauling
               </h1>
-              <p class="mt-5 mb-4 text-[.6rem] leading-3 p-1">
+              <p class="mt-5 mb-4 text-[.6rem] leading-3 p-2">
                 Transportation of RVs across States
               </p>
+              <img className="w-20 mx-auto" src={rvHauling} />
             </div>
           </Link>
-          <Link to="/aboutus">
+          <Link to="/futureCustomer">
             <div class="box w-[13rem] sm:w-[13rem] p-1  text-center shadow-md md:shadow-xl">
               <h1 class="text-s font-bold text-[#7B7B7B] mt-2 mb-4">
                 Pilot Car
               </h1>
-              <p class="mt-4 mb-4 text-[.6rem] leading-3 p-2">
+              <p class="mt-4 mb-4 text-[.6rem] leading-3 pt-1">
                 Provide a vehicle that leads and follows oversized or
                 over-dimensional loads during transport
               </p>
+              <img className="w-24 mx-auto" src={pilotCar} />
             </div>
           </Link>
         </div>
