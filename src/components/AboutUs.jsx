@@ -44,7 +44,7 @@ const AboutUs = () => {
       </div>
       <div className="bg-[#F8F8F8]">
         <div className="p-5 bg-[#686868] text-4xl font-bold text-[#F8DA78] md:text-xl">
-          Our Services
+          <Link to="/contact">Our Services</Link>
         </div>
         <div className="flex flex-col gap-2 py-12 px-28 mt-4 w-auto m-auto lg:px-36 xl:px-48 2xl:px-52">
           <p className="xl:text-[0.5rem]">
