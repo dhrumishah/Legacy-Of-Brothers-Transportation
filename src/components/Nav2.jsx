@@ -109,6 +109,7 @@ const Nav2 = () => {
                     href="/"
                     class="block py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-600  hover:text-white"
                     aria-current="page"
+                    onClick={() => setShow(false)}
                   >
                     Home
                   </a>
@@ -117,6 +118,7 @@ const Nav2 = () => {
                   <a
                     href="/aboutus"
                     class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600  hover:text-white"
+                    onClick={() => setShow(false)}
                   >
                     About Us
                   </a>
@@ -125,6 +127,7 @@ const Nav2 = () => {
                   <a
                     href="/contact"
                     class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600  hover:text-white"
+                    onClick={() => setShow(false)}
                   >
                     Culture
                   </a>
@@ -133,6 +136,7 @@ const Nav2 = () => {
                   <a
                     href="/shop"
                     class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600  hover:text-white"
+                    onClick={() => setShow(false)}
                   >
                     Shop
                   </a>
@@ -141,6 +145,7 @@ const Nav2 = () => {
                   <a
                     href="#"
                     class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600  hover:text-white"
+                    onClick={() => setShow(false)}
                   >
                     Contact
                   </a>
