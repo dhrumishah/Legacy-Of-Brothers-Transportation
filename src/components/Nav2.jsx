@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import logo from "../assets/logo.png";
 import rectangle from "../assets/homeRectangle.png";
 import rectangle2 from "../assets/rectangle.png";
@@ -12,6 +12,8 @@ import { Link } from "react-router-dom";
 const Nav2 = () => {
   const [navbar, setNavbar] = useState(false);
   const [show, setShow] = useState(false);
+
+  let menuRef = useRef();
 
   const changeBackground = () => {
     // console.log(window.scrollY);
@@ -28,6 +30,20 @@ const Nav2 = () => {
     window.addEventListener("scroll", changeBackground);
   });
 
+  useEffect(() => {
+    let handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setShow(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handler);
+
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  });
+
   return (
     <nav
       className={
@@ -41,7 +57,9 @@ const Nav2 = () => {
           <div className="relative flex w-1/2">
             <img src={rectangle2} className=" w-[200%] h-12 -z-[1]" />
             <img src={triangle2} className=" w-7 h-12 right-[45.8%] z-[1]" />
-            <img className="absolute left-1/2 w-20 mx-auto z-10" src={logo} />
+            <Link to="/">
+              <img className="absolute left-1/2 w-20 mx-auto z-10" src={logo} />
+            </Link>
           </div>
           <div className="flex w-1/2 justify-center">
             <img src={truck2} className="w-7 h-7 my-auto" />
@@ -83,6 +101,7 @@ const Nav2 = () => {
             <div
               class={show ? "w-max opacity-85 absolute bg-gray-50" : "hidden"}
               id="navbar-hamburger"
+              ref={menuRef}
             >
               <ul class="flex flex-col mt-4 rounded-lg bg-gray-50 opacity-80">
                 <li>
