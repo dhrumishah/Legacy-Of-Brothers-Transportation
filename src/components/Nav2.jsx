@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
 import logo from "../assets/logo.png";
 import rectangle from "../assets/homeRectangle.png";
+import rectangle2 from "../assets/rectangle.png";
+import triangle2 from "../assets/homeTriangle2.png";
 import triangle from "../assets/homeTriangle.png";
+import whiteRect from "../assets/whiteRect.png";
 import truck from "../assets/truck.png";
 import { Link } from "react-router-dom";
 
@@ -27,18 +30,25 @@ const Nav2 = () => {
   return (
     <nav
       className={
-        navbar ? "fixed w-full z-[2] bg-black text-white" : "fixed w-full z-[2]"
+        navbar
+          ? "fixed w-full z-[2] bg-gray-200 sm:bg-black text-white"
+          : "fixed w-full z-[2]"
       }
     >
       <div className="sm:hidden">
         <div className="flex relative justify-center">
-          <img src={rectangle} className="absolute left-0 w-1/2 -z-[1]" />
+          <img src={rectangle2} className="absolute left-0 w-1/2 h-12 -z-[1]" />
           <img
-            src={triangle}
-            className="absolute rotate-180 w-7 right-[45.9%] -z-[1]"
+            src={triangle2}
+            className="absolute w-7 h-12 right-[45.8%] z-[1]"
           />
           <img className=" w-20 mx-auto z-10" src={logo} />
-          <img className="w-20 mx-auto" src={logo} />
+          <div className="flex ml-[8rem]">
+            <img src={truck} className="abs w-7 h-7 my-auto" />
+            <span className=" text-[0.9rem] mr-28 px-2 my-auto text-[grey] font-semibold italic">
+              DRIVERS
+            </span>
+          </div>
         </div>
         <div className="relative flex justify-center bg-[#F8DA78]">
           <div className="mt-2 ">
