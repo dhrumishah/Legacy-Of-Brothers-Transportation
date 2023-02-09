@@ -6,6 +6,7 @@ import triangle2 from "../assets/homeTriangle2.png";
 import triangle from "../assets/homeTriangle.png";
 import whiteRect from "../assets/whiteRect.png";
 import truck from "../assets/truck.png";
+import truck2 from "../assets/truck2.jpg";
 import { Link } from "react-router-dom";
 
 const Nav2 = () => {
@@ -43,7 +44,7 @@ const Nav2 = () => {
             <img className="absolute left-1/2 w-20 mx-auto z-10" src={logo} />
           </div>
           <div className="flex w-1/2 justify-center">
-            <img src={truck} className="w-7 h-7 my-auto" />
+            <img src={truck2} className="w-7 h-7 my-auto" />
             <span className=" text-[0.9rem] px-2 my-auto text-[grey] font-semibold italic">
               DRIVERS
             </span>
