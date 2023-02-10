@@ -1,6 +1,8 @@
 import React from "react";
 import image_5 from "../assets/culture_1.png";
 import image_6 from "../assets/culture_2.png";
+import fb from "../assets/facebook.png";
+import insta from "../assets/instagram.png";
 
 const Culture = () => {
   return (
@@ -26,12 +28,16 @@ const Culture = () => {
         </div>
       </div>
       <div className="relative bg-[#EDE9C9]">
+        <div className="absolute w-4 gap-1 right-8 flex">
+          <img src={fb} />
+          <img src={insta} />
+        </div>
         <div className="text-center p-10 px-18">
-          <h4 className="text-[0.8rem] font-extrabold leading-3">
+          <h4 className="text-[0.79rem] font-extrabold leading-3">
             At Legacy of Brothers, we are building something special, and we
             invite you to
           </h4>
-          <h4 className="text-[0.8rem] font-extrabold">
+          <h4 className="text-[0.79rem] font-extrabold">
             join us on our journey to create a legacy that will last for
             generations to come.
           </h4>

@@ -22,7 +22,9 @@ const Footer = () => {
               <div>Culture</div>
             </Link>
             <div className="flex flex-col gap-3">
-              <div>Apply Here</div>
+              <Link to="/contact">
+                <div>Apply Here</div>
+              </Link>
               <div>Terms of Use</div>
             </div>
             <div className="flex flex-col gap-3">
