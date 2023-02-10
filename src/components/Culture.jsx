@@ -29,10 +29,15 @@ const Culture = () => {
         </div>
       </div>
       <div className="relative bg-[#EDE9C9]">
-        <div className="absolute w-4 gap-1 right-8 flex">
-          <img className="mr-5" src={fb} />
-          <Link to="https://www.instagram.com/lobtrans/">
-            <img className="ml-0" src={insta} />
+        <div className="absolute w-10 gap-1 right-3 top-1 flex">
+          <Link
+            to="https://www.facebook.com/LOBTRANS?mibextid=LQQJ4d"
+            target="_blank"
+          >
+            <img className="" src={fb} />
+          </Link>
+          <Link to="https://www.instagram.com/lobtrans/" target="_blank">
+            <img className="" src={insta} />
           </Link>
         </div>
         <div className="text-center p-10 px-18">
