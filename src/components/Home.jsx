@@ -5,11 +5,11 @@ import image_3 from "../assets/bg_3.png";
 import rectangle from "../assets/homeRectangle.png";
 import triangle from "../assets/homeTriangle.png";
 import truck from "../assets/truck.png";
-import reefer from "../assets/reeferFreight.jpg";
-import dryVan from "../assets/dryVan.jpg";
-import expFre from "../assets/expFre.jpg";
-import pilotCar from "../assets/pilotCar.jpg";
-import rvHauling from "../assets/rvHauling.jpg";
+import reefer from "../assets/reeferFreight.png";
+import dryVan from "../assets/dryVan.png";
+import expFre from "../assets/expFre.png";
+import pilotCar from "../assets/pilotCar.png";
+import rvHauling from "../assets/rvHauling.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {

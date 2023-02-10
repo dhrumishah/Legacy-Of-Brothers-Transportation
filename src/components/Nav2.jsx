@@ -146,7 +146,7 @@ const Nav2 = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/contact"
                     class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600  hover:text-white"
                     onClick={() => setShow(false)}
                   >

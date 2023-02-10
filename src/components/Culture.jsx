@@ -4,6 +4,7 @@ import image_5 from "../assets/culture_1.png";
 import image_6 from "../assets/culture_2.png";
 import fb from "../assets/facebook.png";
 import insta from "../assets/instagram.png";
+import InstagramEmbed from "react-instagram-embed";
 
 const Culture = () => {
   return (
@@ -362,10 +363,23 @@ const Culture = () => {
             </p>
           </div>
         </blockquote>{" "}
-        {/* <script async src="//www.instagram.com/embed.js"></script> */}
-        {/* <div className="px-16">
-          <img src={image_6} />
-        </div> */}
+        <h1 className="invisible">andc</h1>
+        <div className="mx-auto">
+          <InstagramEmbed
+            url="https://instagr.am/p/Zw9o4/"
+            clientAccessToken="ce078b104a57ece2e53eef8bd5e3377e"
+            maxWidth={320}
+            hideCaption={false}
+            containerTagName="div"
+            protocol=""
+            injectScript
+            onLoading={() => {}}
+            onSuccess={() => {}}
+            onAfterRender={() => {}}
+            onFailure={() => {}}
+          />
+        </div>
+        <script async src="//www.instagram.com/embed.js"></script>
       </div>
     </>
   );

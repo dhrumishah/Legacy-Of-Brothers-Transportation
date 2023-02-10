@@ -17,7 +17,9 @@ const Footer = () => {
         /> */}
         <div className="absolute w-full top-0 right-0 flex flex-col gap-3 mr-9 sm:gap-0">
           <div className="  flex flex-row-reverse text-[0.65rem] pt-6 gap-5  justify-center text-white sm:gap-3 sm:text-[0.7rem] md:gap-4 md:text-[0.65rem] lg:gap-4 lg:text-[0.75rem] xl:text-[0.6rem]">
-            <div>Online Store</div>
+            <Link to="/shop">
+              <div>Online Store</div>
+            </Link>
             <Link to="/culture">
               <div>Culture</div>
             </Link>
@@ -25,13 +27,13 @@ const Footer = () => {
               <Link to="/contact">
                 <div>Apply Here</div>
               </Link>
-              <div>Terms of Use</div>
+              {/* <div>Terms of Use</div> */}
             </div>
             <div className="flex flex-col gap-3">
               <Link to="/contact">
                 <div>Contact Us</div>
               </Link>
-              <div>Privacy Policy</div>
+              {/* <div>Privacy Policy</div> */}
             </div>
             <div className="flex flex-col gap-3">
               <Link to="/aboutus">
