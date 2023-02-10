@@ -64,12 +64,14 @@ const Nav2 = () => {
               />
             </Link>
           </div>
-          <div className="flex w-1/2 justify-center">
-            <img src={truck2} className="w-7 h-7 my-auto" />
-            <span className=" text-[0.9rem] px-2 my-auto text-[grey] font-semibold italic">
-              DRIVERS
-            </span>
-          </div>
+          <Link to="/contact">
+            <div className="flex w-1/2 ml-[6rem] mt-2">
+              <img src={truck2} className="w-7 h-7 my-auto" />
+              <span className=" text-[0.9rem] px-2 my-auto text-[grey] font-semibold italic">
+                DRIVERS
+              </span>
+            </div>
+          </Link>
         </div>
         <div className="relative flex justify-center bg-[#F8DA78]">
           <div className="mt-2 ">
