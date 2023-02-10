@@ -102,7 +102,11 @@ const Nav2 = () => {
               </svg>
             </button>
             <div
-              class={show ? "w-max opacity-85 absolute bg-gray-50" : "hidden"}
+              class={
+                show
+                  ? "w-max opacity-85 left-[45%] absolute bg-gray-50"
+                  : "hidden"
+              }
               id="navbar-hamburger"
               ref={menuRef}
             >
