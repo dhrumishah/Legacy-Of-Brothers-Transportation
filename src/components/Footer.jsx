@@ -37,7 +37,9 @@ const Footer = () => {
               <Link to="/aboutus">
                 <div>About Us</div>
               </Link>
-              <div>Social Media</div>
+              <Link to="https://www.instagram.com/lobtrans/" target="_blank">
+                <div>Social Media</div>
+              </Link>
             </div>
             <div className="flex flex-col gap-2">
               <div>Company Address</div>
