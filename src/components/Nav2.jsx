@@ -58,7 +58,10 @@ const Nav2 = () => {
             <img src={rectangle2} className=" w-[200%] h-12 -z-[1]" />
             <img src={triangle2} className=" w-7 h-12 right-[45.8%] z-[1]" />
             <Link to="/">
-              <img className="absolute left-1/2 w-20 mx-auto z-10" src={logo} />
+              <img
+                className="absolute left-[35%] w-20 mx-auto z-10"
+                src={logo}
+              />
             </Link>
           </div>
           <div className="flex w-1/2 justify-center">
@@ -125,7 +128,7 @@ const Nav2 = () => {
                 </li>
                 <li>
                   <a
-                    href="/cukture"
+                    href="/culture"
                     class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-600  hover:text-white"
                     onClick={() => setShow(false)}
                   >
