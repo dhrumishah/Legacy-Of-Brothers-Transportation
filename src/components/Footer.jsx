@@ -33,7 +33,6 @@ const Footer = () => {
               <Link to="/contact">
                 <div>Contact Us</div>
               </Link>
-              {/* <div>Privacy Policy</div> */}
             </div>
             <div className="flex flex-col gap-3">
               <Link to="/aboutus">
