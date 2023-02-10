@@ -4,7 +4,6 @@ import image_5 from "../assets/culture_1.png";
 import image_6 from "../assets/culture_2.png";
 import fb from "../assets/facebook.png";
 import insta from "../assets/instagram.png";
-import InstagramEmbed from "react-instagram-embed";
 
 const Culture = () => {
   return (
