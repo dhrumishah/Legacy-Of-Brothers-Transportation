@@ -3,17 +3,22 @@ import red from "../assets/redT.png";
 import white from "../assets/whiteT.png";
 import yellow from "../assets/yellowT.png";
 import black from "../assets/blackT.png";
+import yellowHat from "../assets/yellowHat.png";
+import brownHat from "../assets/brownHat.png";
 import cap from "../assets/caps.png";
-import hat from "../assets/hats.png";
+
 import SoldOutButton from "./SoldOutButton";
 
 const Shop = () => {
   const [color, setColor] = useState("red");
+  const [hat, setHat] = useState("brownHat");
 
   const redT = <img src={red} alt="" />;
   const whiteT = <img src={white} alt="" />;
   const yellowT = <img src={yellow} alt="" />;
   const blackT = <img src={black} alt="" />;
+  const brownH = <img src={brownHat} alt="" />;
+  const yellowH = <img src={yellowHat} />;
 
   return (
     <>
@@ -63,11 +68,23 @@ const Shop = () => {
             </div>
           </div>
           <div className="w-1/2 sm:w-[15%] mx-auto">
-            <img src={hat} />
-            <div className="py-6">
+            {hat === "brownHat" && brownH}
+            {hat === "yellowHat" && yellowH}
+
+            <div className="flex justify-center gap-5 sm:gap-2 py-2">
+              <span
+                onClick={() => setHat("brownHat")}
+                class="w-7 h-7 sm:w-3 sm:h-3 bg-[#CCBA9F] rounded-full cursor-pointer"
+              ></span>
+              <span
+                onClick={() => setHat("yellowHat")}
+                class="w-7 h-7 sm:w-3 sm:h-3 bg-yellow-300 rounded-full cursor-pointer"
+              ></span>
+            </div>
+            <div className="py-1 sm:-my-2">
               <span>LOBT Beanie Hat</span>
             </div>
-            <div className="mx-auto w-1/2 sm:-mt-2 sm:w-24">
+            <div className="mx-auto w-1/2 sm:mt-4 sm:w-24">
               <SoldOutButton />
             </div>
           </div>
