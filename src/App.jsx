@@ -13,7 +13,7 @@ import FutureOwnerOperator from "./components/FutureOwnerOperator";
 
 function App() {
   return (
-    <div>
+    <>
       <BrowserRouter>
         <Nav2 />
         <div className="relative">
@@ -34,7 +34,7 @@ function App() {
           <Footer />
         </div>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 
