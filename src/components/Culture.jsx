@@ -57,15 +57,17 @@ const Culture = () => {
             time off options.
           </p>
         </div>
-        {/* <div className=""> */}
-        <iframe
+
+        {/* <iframe
           width="200rem"
           height="200rem"
           className="mx-auto  rounded-lg "
           src="https://www.instagram.com/lobtrans/embed"
           frameborder="0"
-        ></iframe>
-        {/* </div> */}
+        ></iframe> */}
+        <div className="px-16">
+          <img src={image_6} />
+        </div>
       </div>
     </>
   );
