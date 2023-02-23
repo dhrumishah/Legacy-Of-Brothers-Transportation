@@ -171,19 +171,29 @@ const Nav2 = () => {
         <div className="flex">
           <div className="m-auto flex gap-4 text-[0.6rem] font-semibold italic">
             <a href="/" className="">
-              <span className="">Home</span>
+              <span className="hover:text-[#FAD979] transition-all duration-200">
+                Home
+              </span>
             </a>
             <a href="/aboutus" className="">
-              <span className="">About Us</span>
+              <span className="hover:text-[#FAD979] transition-all duration-200">
+                About Us
+              </span>
             </a>
             <a href="/culture" className="">
-              <span className="">Culture</span>
+              <span className="hover:text-[#FAD979] transition-all duration-200">
+                Culture
+              </span>
             </a>
             <a href="/shop" className="">
-              <span className="">Shop</span>
+              <span className="hover:text-[#FAD979] transition-all duration-200">
+                Shop
+              </span>
             </a>
             <a href="/contact" className="">
-              <span className="">Contact</span>
+              <span className="hover:text-[#FAD979] transition-all duration-200">
+                Contact
+              </span>
             </a>
           </div>
           <Link to="/contact">
